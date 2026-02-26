@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: knit-script
+Version: 0.1.21
+Summary: Knit Script is a domain specific programming language for writing v-bed knitting machine instructions. The language is loosely based on conventions from Python 3 but includes support for controlling a knitting machine. The code is interpreted into knitout which can then be processed into instructions for different types of knitting machines.
+Author-email: Megan Hofmann <m.hofmann@northeastern.edu>
+Project-URL: Homepage, https://github.com/mhofmann-Khoury/knit_script
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: networkx==3.2
+Requires-Dist: parglare==0.16.1
+Requires-Dist: Naked==0.1.32
+Requires-Dist: setuptools==68.2.2
+Requires-Dist: matplotlib==3.8.0
+Requires-Dist: nodejs~=0.1.1
+Requires-Dist: node
+Requires-Dist: importlib_resources==6.1.0
+Dynamic: license-file
+
+# knitscript-soft-robots
+distribution of knitscript for the wesleyan soft robots lab
