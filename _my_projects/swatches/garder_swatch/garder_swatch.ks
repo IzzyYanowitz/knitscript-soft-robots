@@ -1,7 +1,7 @@
 // simple swatch of a garder stitch
 import cast_ons;
-width = 50;
-height = 50;
+width = 5;
+height = 5;
 
 with Gauge as 2, Carrier as c1: {
     

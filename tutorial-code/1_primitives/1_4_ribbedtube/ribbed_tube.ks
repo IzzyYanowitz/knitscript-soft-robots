@@ -1,4 +1,4 @@
-/* // Make a tube of kp ribbing. Front of the round is on sheet 0. Back is on Sheet 2
+// Make a tube of kp ribbing. Front of the round is on sheet 0. Back is on Sheet 2
 import cast_ons;
 
 with Gauge as 2, Carrier as 1, width as 50, height as 50:{
@@ -23,6 +23,6 @@ with Gauge as 2, Carrier as 1, width as 50, height as 50:{
 		}
 	}
 }
- */
+
 
  
