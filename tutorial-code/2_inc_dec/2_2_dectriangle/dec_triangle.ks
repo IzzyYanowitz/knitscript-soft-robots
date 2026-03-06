@@ -8,11 +8,12 @@ with Carrier as c1, width as 22, height as 20:{
     for i in range(0, height):{
         n_needle = Loops[-1];
         xfer n_needle 1 to Left;
+        print Loops;
         xfer Back_Loops across;
         in reverse direction:{
             knit Loops;
         }
-        print Loops;
+        
     }
 
 }
