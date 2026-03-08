@@ -2,10 +2,9 @@
 from knit_script.interpret import knit_script_to_knitout, knit_script_to_knitout_to_dat
 from knit_script.knit_graphs.knit_graph_viz import visualize_sheet
 
-source_dir = "_my_projects/simple_color_work/bit_map_knitter/" # this is the folder the .ks file is located in. Make sure this path ends with a /
-title = "bit_map_knitter" # this is the name of the project and .ks file
-"""source_dir = "tutorial-code/2_inc_dec/2_2_dectriangle/" # this is the folder the .ks file is located in. Make sure this path ends with a /
-title = "dec_triangle" # this is the name of the project and .ks file"""
+source_dir = "_my_projects/lace/lace_stitches_test/" # this is the folder the .ks file is located in. Make sure this path ends with a /
+title = "lace_st_test" # this is the name of the project and .ks file
+#source_dir = "tutorial-code/3_eyelets/3_1_lefteyelets/" 
 
 
 

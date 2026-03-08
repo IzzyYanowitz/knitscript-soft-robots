@@ -8,9 +8,9 @@ with Carrier as c1, width as 20, height as 20:{
 
     for i in range(0, height):{
         if i == 10:{
-            xfer left_needles across;
+            xfer left_needles across to Back bed;
             xfer Back_Loops 1 to Left;
-            xfer right_needles across;
+            xfer right_needles across to Back bed;
             xfer Back_Loops 1 to Right;
             in reverse direction:{
                 tuck left_needles;

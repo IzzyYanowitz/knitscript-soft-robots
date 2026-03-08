@@ -3,18 +3,13 @@
 // a zero will be carriers[0], and a 1 will be carriers[1]
 // the back of the peice will have a color swapped and backwards version of the bitmap
 
+// FUCK i don't think i can use sheets for this
+// they move the loops around to be "out of the way" but I want them "in the way" so they stay on the right side
+
 import cast_ons;
 import bind_offs;
 
 bit_map = [[(i + (j % 2)) % 2  for i in range(4)] for j in range(4)]; // checkerboard
-bit_map = [[0, 0, 0, 0, 0, 0, 0], 
-           [0, 1, 1, 0, 1, 1, 0], 
-           [1, 1, 1, 1, 1, 1, 1], 
-           [1, 1, 1, 1, 1, 1, 1], 
-           [0, 1, 1, 1, 1, 1, 0], 
-           [0, 0, 1, 1, 1, 0, 0], 
-           [0, 0, 0, 1, 0, 0, 0]]; // heart
-
 pixel_width = 4; // number of stitches per pixel in x direction
 pixel_height = 4; // number of stitches per pixel in y direction
 
@@ -138,4 +133,3 @@ with Carrier as carriers[0]: {
     }
     bind_offs.chain_bind_off(Loops, Leftward);
 }
-

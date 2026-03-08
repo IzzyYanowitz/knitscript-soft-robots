@@ -42,3 +42,51 @@ with Carrier as c1: {
         print Loops;
     }
 }
+
+/*
+increase:
+
+state 0:
+| | | | |
+| † † † |
+
+state 1: xfer Loops[0] 1 to Left;
+† | | | |
+| | † † †
+
+state 2: xfer Loops[-1] 1 t Right;
+† | | | †
+| | † | |
+
+state 3: xfer Back_Loops across;
+| | | | |
+† | † | †
+
+state 4: tuck Loops[1, 3];
+| | | | |
+† † † † †
+
+
+decrease:
+
+state 0:
+| | | | |
+† † † † †
+
+state 1: xfer Loops[0] 1 to Right;
+| † | | |
+| † † † †
+
+state 2: xfer Loops[-1] 1 to Left;
+| † | † |
+| † † † |
+
+state 3: xfer Back_Loops across;
+| | | | |
+| ‡ † ‡ |
+
+state 4: knit Loops;
+| | | | |
+| † † † |
+*/
+
