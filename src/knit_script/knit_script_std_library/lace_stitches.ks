@@ -295,9 +295,9 @@ def slip_knit_2_together(tuck_needles_index, knit_rows_after = 0, do_tuck = True
 }
 
 /*
-I don't know what this is called
-it creates 2 adjacent eyelets
-two_eyelets it is?
+this creates 2 adjacent eyelets
+it is equivalent to S2KP
+
 state 0:
 | | | | |
 - - - - -
