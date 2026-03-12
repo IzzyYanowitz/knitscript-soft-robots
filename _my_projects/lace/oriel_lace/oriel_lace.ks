@@ -6,8 +6,8 @@ import bind_offs;
 import lace_stitches;
 
 
-width_pattern_repeats = 1;
-height_pattern_repeats = 1;
+width_pattern_repeats = 3;
+height_pattern_repeats = 2;
 
 width = 12 * width_pattern_repeats + 1;
 height = 28 * height_pattern_repeats;
@@ -177,5 +177,6 @@ with Carrier as c1: {
             prepare_outside_lace(ktog_indices, ssk_indices, shift_dist = 4 - row);
         }
     }
-
+    xfer Back_Loops across to Front bed;
+    bind_offs.chain_bind_off(Loops, Leftward);
 }

@@ -2,8 +2,8 @@
 from knit_script.interpret import knit_script_to_knitout, knit_script_to_knitout_to_dat
 from knit_script.knit_graphs.knit_graph_viz import visualize_sheet
 
-source_dir = "_my_projects/lace/oriel_lace/" # this is the folder the .ks file is located in. Make sure this path ends with a /
-title = "oriel_lace" # this is the name of the project and .ks file
+source_dir = "_my_projects/alt_tuck_linking/bit_map_knitter/" # this is the folder the .ks file is located in. Make sure this path ends with a /
+title = "bit_map_knitter" # this is the name of the project and .ks file
 #source_dir = "tutorial-code/3_eyelets/3_1_lefteyelets/" 
 
 
