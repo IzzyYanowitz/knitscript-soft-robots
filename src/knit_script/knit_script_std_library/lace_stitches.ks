@@ -30,7 +30,7 @@ state 4: knit Loops
 def left_eyelet(tuck_needles_index, knit_rows_after = 0, do_tuck = True): {
     // requires empty back bed
     
-    tuck_needles = [Loops[i] for i in tuck_needles_index];
+    tuck_needles = [Front_Needles[i] for i in tuck_needles_index];
     
     xfer tuck_needles across;
     xfer Back_Loops 1 to Left;
@@ -78,7 +78,7 @@ state 4: knit Loops
 def right_eyelet(tuck_needles_index, knit_rows_after = 0, do_tuck = True): {
     // requires empty back bed
     
-    tuck_needles = [Loops[i] for i in tuck_needles_index];
+    tuck_needles = [Front_Needles[i] for i in tuck_needles_index];
     
     xfer tuck_needles across;
     xfer Back_Loops 1 to Right;
@@ -128,12 +128,13 @@ state 5: transer back loops
 - - - - -
 */
 
-def slip_slip_knit(tuck_needles_index, knit_rows_after = 1, do_tuck = True): {
+def slip_slip_knit(tuck_needles_index, knit_rows_after = 0, do_tuck = True): {
+    // IF KNIT_ROWS_AFTER IS 0, YOU MUST, MUST, MUST, XFER THE BACK LOOPS TO THE FRONT
     // requires empty back bed
     // knit_rows_after must be at least 1
     
-    tuck_loops = [Loops[i] for i in tuck_needles_index];
-    next_to = [Loops[i - 1] for i in tuck_needles_index];
+    tuck_loops = [Front_Needles[i] for i in tuck_needles_index];
+    next_to = [Front_Needles[i - 1] for i in tuck_needles_index];
     
     xfer tuck_loops 1 to Left;
     xfer next_to across;
@@ -144,16 +145,20 @@ def slip_slip_knit(tuck_needles_index, knit_rows_after = 1, do_tuck = True): {
     }
     
     
-    in reverse direction: {
-        knit Loops; // you need to knit the back loops
-    }
 
-    xfer Back_Loops across;
+    for row in range(knit_rows_after): {
+        if row == 0: {
+            in reverse direction: {
+                knit Loops; // you need to knit the back loops
+            }
 
-    for row in range(knit_rows_after - 1): {
-        in reverse direction: {
-            knit Front_Loops;
+            xfer Back_Loops across;
+        } else: {
+            in reverse direction: {
+                knit Front_Loops;
+            }
         }
+        
     }
 
 }
@@ -197,8 +202,8 @@ state 6: knit Loops
 def knit_3_together(tuck_needles_index, knit_rows_after = 0, do_tuck = True): {
     // requires empty back bed
 
-    left_tuck_needles = [Loops[i - 1] for i in tuck_needles_index];
-    right_tuck_needles = [Loops[i] for i in tuck_needles_index];    
+    left_tuck_needles = [Front_Needles[i - 1] for i in tuck_needles_index];
+    right_tuck_needles = [Front_Needles[i] for i in tuck_needles_index];    
 
    
     xfer right_tuck_needles 1 to Right;
@@ -265,8 +270,8 @@ state 6: knit Loops
 def slip_knit_2_together(tuck_needles_index, knit_rows_after = 0, do_tuck = True): {
     // requires empty back bed
 
-    left_tuck_needles = [Loops[i] for i in tuck_needles_index];
-    right_tuck_needles = [Loops[i + 1] for i in tuck_needles_index];
+    left_tuck_needles = [Front_Needles[i] for i in tuck_needles_index];
+    right_tuck_needles = [Front_Needles[i + 1] for i in tuck_needles_index];
 
     
     xfer left_tuck_needles 1 to Left;
@@ -330,8 +335,8 @@ state 6: knit Loops
 def two_eyelets(tuck_needles_index, knit_rows_after = 1, do_tuck = True): {
     // requires empty back bed
 
-    left_tuck_needles = [Loops[i] for i in tuck_needles_index];
-    right_tuck_needles = [Loops[i + 2] for i in tuck_needles_index];
+    left_tuck_needles = [Front_Needles[i] for i in tuck_needles_index];
+    right_tuck_needles = [Front_Needles[i + 2] for i in tuck_needles_index];
     tuck_needles = left_tuck_needles + right_tuck_needles;
 
     xfer left_tuck_needles 1 to Right;
