@@ -128,3 +128,14 @@ for pattern_row in bit_map: {
         }
     }
 }
+
+with Carrier as carriers[0]: {
+    
+    // knit a row to stabalize
+    
+    in reverse direction: {
+        knit Front_Loops;
+    }
+
+    bind_offs.chain_bind_off(Front_Loops, Rightward);
+}
