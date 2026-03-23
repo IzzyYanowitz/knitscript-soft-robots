@@ -1,0 +1,974 @@
+
+<!-- modified from output from highlight.js (https://highlightjs.org) using a theme modified from "a11y-light" by ericwbailey-->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Example JS</title>
+	<style type="text/css">
+		html {
+			background-color: #8faaff;
+		}
+
+		/* Comment */
+		.hljs-comment,
+		.hljs-quote {
+		  color: #999999;
+		}
+
+		/* Red */
+		.hljs-variable,
+		.hljs-template-variable,
+		.hljs-tag,
+		.hljs-name,
+		.hljs-selector-id,
+		.hljs-selector-class,
+		.hljs-regexp,
+		.hljs-deletion {
+		  color: #d91e18;
+		}
+
+		/* Orange */
+		.hljs-number,
+		.hljs-built_in,
+		.hljs-builtin-name,
+		.hljs-literal,
+		.hljs-type,
+		.hljs-params,
+		.hljs-meta,
+		.hljs-link {
+		  /*color: #aa5d00;*/
+		  /*color:#eb5a00;*/
+		  color: #e2b33d;
+		}
+
+		/* Yellow */
+		.hljs-attribute {
+		  color: #aa5d00;
+		}
+
+		/* Green */
+		.hljs-string,
+		.hljs-symbol,
+		.hljs-bullet,
+		.hljs-addition {
+		  /*color: #008000;*/
+		  color: #f73c8c;
+		}
+
+		/* Blue */
+		.hljs-title,
+		.hljs-section {
+		  /*color: #007faa;*/
+		  color: #8faaff;
+		}
+
+		/* Purple */
+		.hljs-keyword,
+		.hljs-selector-tag {
+		  /*color: #7928a1;*/
+		  color: #2f3fd3;
+		}
+
+		.hljs {
+		  display: block;
+		  overflow-x: auto;
+		  background: #ffffff;
+		  color: #545454;
+		  padding: 0.5em;
+		}
+
+		.hljs-emphasis {
+		  font-style: italic;
+		}
+
+		.hljs-strong {
+		  font-weight: bold;
+		}
+
+		@media screen and (-ms-high-contrast: active) {
+		  .hljs-addition,
+		  .hljs-attribute,
+		  .hljs-built_in,
+		  .hljs-builtin-name,
+		  .hljs-bullet,
+		  .hljs-comment,
+		  .hljs-link,
+		  .hljs-literal,
+		  .hljs-meta,
+		  .hljs-number,
+		  .hljs-params,
+		  .hljs-string,
+		  .hljs-symbol,
+		  .hljs-type,
+		  .hljs-quote {
+		        color: highlight;
+		    }
+
+		    .hljs-keyword,
+		    .hljs-selector-tag {
+		        font-weight: bold;
+		    }
+		}
+
+		pre {
+			background-color: #ffffff;
+			margin: 2em auto;
+			max-width: 150em;
+			width: 70%;
+			border: 1px solid black;
+			padding-left: 3em;
+			padding-right: 3em;
+			padding-top:1.5em;
+			tab-size: 2; /* Set tab size to 2 spaces */
+		}
+	</style>
+</head>
+<body>
+	<pre><code class="javascript hljs"><span class="hljs-keyword">var</span> knitout = <span class="hljs-built_in">require</span>(<span class="hljs-string">'../../knitout-frontend-js/knitout'</span>);
+k = <span class="hljs-keyword">new</span> knitout.Writer({<span class="hljs-attr">carriers</span>:[<span class="hljs-string">"1"</span>, <span class="hljs-string">"2"</span>, <span class="hljs-string">"3"</span>, <span class="hljs-string">"4"</span>, <span class="hljs-string">"5"</span>, <span class="hljs-string">"6"</span>, <span class="hljs-string">"7"</span>, <span class="hljs-string">"8"</span>, <span class="hljs-string">"9"</span>, <span class="hljs-string">"10"</span>]});
+<span class="hljs-keyword">var</span> gauge = <span class="hljs-string">"half"</span>;
+k.addHeader(<span class="hljs-string">'Machine'</span>,<span class="hljs-string">'SWGXYZ'</span>);
+k.addHeader(<span class="hljs-string">'Gauge'</span>,<span class="hljs-string">'15'</span>);
+k.addHeader(<span class="hljs-string">'Presser'</span>,<span class="hljs-string">'On'</span>);
+k.addHeader(<span class="hljs-string">'X-Presser'</span>,<span class="hljs-string">'On'</span>);
+
+<span class="hljs-keyword">var</span> title = <span class="hljs-string">"pullstrings"</span>;
+<span class="hljs-keyword">var</span> frontYarn = <span class="hljs-string">"3"</span>;
+<span class="hljs-keyword">var</span> pullstring = <span class="hljs-string">"5"</span>;
+<span class="hljs-keyword">var</span> backYarn = <span class="hljs-string">"8"</span>;
+<span class="hljs-keyword">var</span> secondPullstring = <span class="hljs-string">"7"</span>;
+<span class="hljs-keyword">var</span> middleYarn = <span class="hljs-string">"6"</span>;
+<span class="hljs-keyword">var</span> carriers = {};  <span class="hljs-comment">// will be used to store carrier state</span>
+
+<span class="hljs-keyword">var</span> tuckDist = <span class="hljs-number">3</span>;
+
+<span class="hljs-keyword">var</span> height = <span class="hljs-number">100</span>;
+<span class="hljs-keyword">var</span> width = <span class="hljs-number">15</span>;
+<span class="hljs-keyword">var</span> confines = {<span class="hljs-attr">leftedge</span>:<span class="hljs-number">1</span>, <span class="hljs-attr">rightedge</span>: width, <span class="hljs-attr">side</span>: <span class="hljs-string">"tube"</span>};
+
+k.stitchNumber(<span class="hljs-number">95</span>);
+
+<span class="hljs-comment">// ====== Start  =======</span>
+	<span class="hljs-comment">// lampshade();</span>
+	<span class="hljs-comment">// tentacle();</span>
+	<span class="hljs-comment">// scrunchScarf();</span>
+	singleVertPrimitive();
+
+<span class="hljs-comment">// ====== finish specific object =======</span>
+
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Processed "</span>+title);
+k.write(title+<span class="hljs-string">'.k'</span>);
+
+
+<span class="hljs-comment">// // ================================================================= </span>
+<span class="hljs-comment">// // ======================= ~ Demos ~ ========================== </span>
+<span class="hljs-comment">// // ================================================================= </span>
+<span class="hljs-function" id="lampshade"><span class="hljs-keyword">function</span> <span class="hljs-title">lampshade</span> (<span class="hljs-params"></span>) </span>{
+	<span class="hljs-comment">// parameters to control width, length, size of pockets, number of segments, etc</span>
+	confines = {<span class="hljs-attr">leftedge</span>:<span class="hljs-number">0</span>, <span class="hljs-attr">rightedge</span>: <span class="hljs-number">100</span>, <span class="hljs-attr">side</span>: <span class="hljs-string">"f"</span>};
+	<span class="hljs-keyword">var</span> ribHeight = <span class="hljs-number">6</span>;
+	<span class="hljs-keyword">var</span> drapeHeight = <span class="hljs-number">4</span>*ribHeight;
+	<span class="hljs-keyword">var</span> drapeWidth = <span class="hljs-number">70</span>;
+	<span class="hljs-keyword">var</span> lapWidth = <span class="hljs-number">15</span>;
+	<span class="hljs-keyword">var</span> numberOfSegments = <span class="hljs-number">6</span>;
+	<span class="hljs-keyword">var</span> pocket = {<span class="hljs-attr">rightedge</span>: confines.rightedge, <span class="hljs-attr">leftedge</span>: confines.rightedge - drapeWidth, <span class="hljs-attr">side</span>: <span class="hljs-string">"b"</span>};
+	confines.rightedge = confines.rightedge + lapWidth;
+	<span class="hljs-keyword">var</span> weaveFunction = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">s</span>) </span>{<span class="hljs-keyword">return</span> ((s%<span class="hljs-number">2</span> == <span class="hljs-number">0</span> &amp;&amp; s&gt;pocket.leftedge) || s&gt;pocket.rightedge) ? <span class="hljs-string">"p"</span> : <span class="hljs-string">"k"</span>;}
+
+	<span class="hljs-keyword">var</span> webbingFunction = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">confines, height, h</span>) </span>{
+		<span class="hljs-comment">// var width = confines.rightedge - confines.leftedge;</span>
+		<span class="hljs-keyword">var</span> width = <span class="hljs-number">1</span> + (pocket.rightedge - pocket.leftedge);
+		<span class="hljs-keyword">var</span> stepSize = width/((height/<span class="hljs-number">2</span>) - <span class="hljs-number">1</span>);
+		<span class="hljs-keyword">var</span> leftedge = confines.leftedge;
+		<span class="hljs-keyword">var</span> rightedge;
+		<span class="hljs-keyword">if</span> (h<height 2)="" {="" rightedge="Math.floor(pocket.rightedge" -="" (h*stepsize));="" }="" else="" +="" ((h-height="" 2)*stepsize));="" return="" {rightedge:="" rightedge,="" leftedge:="" leftedge,="" side:="" "f"};="" var="" shortrows="function" (height,="" confines,="" side,="" carrier,="" rowsfunction,="" tuckedges)="" bed="side;" otherbed="(bed" =="f" )="" ?="" "bs"="" :="" "fs";="" for="" (var="" h="0;" h<height;="" h++)="" if="" (h="=" math.round(height="" 2))="" reverseplainrows(2,="" carrier);="" shortconfines="rowsFunction(confines," height,="" h);="" (tuckedges="" &&="" shortconfines.leftedge=""> confines.leftedge) {
+				tuck(<span class="hljs-string">"-"</span>, bed, shortConfines.leftedge - <span class="hljs-number">1</span>, carrier);
+			}
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=shortConfines.leftedge; s&lt;=shortConfines.rightedge; s++) {
+				knit(<span class="hljs-string">"+"</span>, bed, s, carrier);
+			}
+			<span class="hljs-keyword">if</span> (tuckEdges &amp;&amp; shortConfines.rightedge &lt; confines.rightedge) {
+				tuck(<span class="hljs-string">"+"</span>, bed, shortConfines.rightedge + <span class="hljs-number">1</span>, carrier);
+			}
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=shortConfines.leftedge; s&lt;=shortConfines.rightedge; s++) {
+				xfer(bed, s, otherBed, s);
+			}
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=shortConfines.rightedge; s&gt;=shortConfines.leftedge; s--) {
+				<span class="hljs-comment">// console.log(h, s);</span>
+				knit(<span class="hljs-string">"-"</span>, otherBed, s, carrier);
+			}
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=shortConfines.leftedge; s&lt;=shortConfines.rightedge; s++) {
+				xfer(otherBed, s, bed, s);
+			}
+		}
+	}
+
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">pocketRows</span> (<span class="hljs-params">numberOfRows, confines, pocket, frontYarn, backYarn</span>) </span>{
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> h=<span class="hljs-number">0</span>; h<numberofrows; h++)="" {="" for="" (var="" s="pocket.rightedge;">=pocket.leftedge; s--) {
+				knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"b"</span>, s, backYarn);
+			}
+			tuck(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, pocket.leftedge, backYarn);
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=pocket.leftedge; s&lt;=pocket.rightedge; s++) {
+				knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, backYarn);
+			}
+
+
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+				knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, frontYarn);
+			}
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+				xfer(<span class="hljs-string">"f"</span>, s, <span class="hljs-string">"bs"</span>, s);
+			}
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+				knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"bs"</span>, s, frontYarn);
+			}	
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+				xfer(<span class="hljs-string">"bs"</span>, s, <span class="hljs-string">"f"</span>, s);
+			}	
+		}
+	}
+
+
+	<span class="hljs-comment">// "reverse" rows (caston/plain/purl) are reversed left/right -- the lamp is knit mirrored </span>
+	<span class="hljs-comment">// for faster yarn in/out and no vertical yarn tangling considerations.</span>
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">reverseCaston</span> (<span class="hljs-params">confines, carrier</span>) </span>{
+		<span class="hljs-keyword">var</span> bed = confines.side;
+		<span class="hljs-keyword">if</span> (!carriers[carrier] || !carriers[carrier].in) {
+			yarnIn(carrier);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			<span class="hljs-keyword">if</span> (s%<span class="hljs-number">2</span> == confines.leftedge%<span class="hljs-number">2</span>) {
+				knit(<span class="hljs-string">"+"</span>, bed, s, frontYarn);
+			}
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			<span class="hljs-keyword">if</span> (s%<span class="hljs-number">2</span> != confines.leftedge%<span class="hljs-number">2</span>) {
+				knit(<span class="hljs-string">"-"</span>, bed, s, frontYarn);
+			}
+		}
+		<span class="hljs-keyword">if</span> (carriers[<span class="hljs-string">"hook"</span>]) {
+			releaseHook(carrier);
+		}
+	}
+
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">reversePlainRows</span> (<span class="hljs-params">numberOfRows, confines, carrier</span>) </span>{
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> h=<span class="hljs-number">0</span>; h<numberofrows; h++)="" {="" for="" (var="" s="confines.leftedge;" s<="confines.rightedge;" s++)="" console.log(h,="" s);="" knit("+",="" "f",="" s,="" carrier);="" }="">=confines.leftedge; s--) {
+				<span class="hljs-comment">// console.log(h, s);</span>
+				knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+			}
+		}
+	}
+
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">reversePurlRows</span> (<span class="hljs-params">numberOfRows, confines, carrier, keepOnBack</span>) </span>{
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			xfer(<span class="hljs-string">"f"</span>, s, <span class="hljs-string">"bs"</span>, s);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> h=<span class="hljs-number">0</span>; h<numberofrows; h++)="" {="" for="" (var="" s="confines.leftedge;" s<="confines.rightedge;" s++)="" console.log(h,="" s);="" knit("+",="" "bs",="" s,="" carrier);="" }="">=confines.leftedge; s--) {
+				<span class="hljs-comment">// console.log(h, s);</span>
+				knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"bs"</span>, s, carrier);
+			}
+		}
+		<span class="hljs-keyword">if</span> (!keepOnBack) {
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+				xfer(<span class="hljs-string">"bs"</span>, s, <span class="hljs-string">"f"</span>, s);
+			}
+		}
+	}
+
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">pocketStart</span> (<span class="hljs-params">confines, pocket, carrier</span>) </span>{
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+				knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"bs"</span>, s, carrier);
+				<span class="hljs-keyword">if</span> (s&lt;=pocket.rightedge &amp;&amp; s&gt;=pocket.leftedge) {
+					knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+				}
+			}
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+				<span class="hljs-keyword">if</span> (s&lt;=pocket.rightedge &amp;&amp; s&gt;=pocket.leftedge) {
+					knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+				}
+				knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"bs"</span>, s, carrier);
+			}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			xfer(<span class="hljs-string">"bs"</span>, s, <span class="hljs-string">"f"</span>, s);
+		}
+	}
+
+	<span class="hljs-comment">// set up main yarns and do a begining flange/hem</span>
+	reverseCaston(confines, frontYarn);
+	reversePlainRows(<span class="hljs-number">1</span>, confines, frontYarn);
+	reversePurlRows(<span class="hljs-number">5</span>, confines, frontYarn);
+	<span class="hljs-keyword">var</span> backInTucks = tuckIn(backYarn, confines.rightedge + <span class="hljs-number">3</span>);
+
+	<span class="hljs-comment">// then for each segment...</span>
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i<numberofsegments; i++)="" {="" reversepurlrows(1,="" confines,="" frontyarn,="" true);="" make="" the="" first="" half="" of="" pocket="" pocketstart(confines,="" pocket,="" frontyarn);="" pocketrows(ribheight="" 2,="" backyarn,="" false,="" false);="" if="" (i="=0)" dropall(backintucks);="" }="" bring="" drawstring="" carrier="" in="" and="" interlace="" it="" splitrow(confines,="" "f",="" weavefunction);="" var="" intucks="tuckIn(pullstring," confines.rightedge="" +="" 20);="" overtucks="tuckTo(pullstring," pocket.leftedge,="" rejoinrow(confines,="" dropall(overtucks);="" drop("f",="" +3);="" one="" more="" row="" pocketrows(1,="" back="" other="" way="" (double="" over)="" 20,="" cut="" take="" out="" yarnout(pullstring);="" dropall(intucks);="" finish="" for="" (var="" s="pocket.rightedge;">= pocket.leftedge; s--) {
+			xfer(<span class="hljs-string">"b"</span>, s, <span class="hljs-string">"f"</span>, s);
+		}
+		<span class="hljs-comment">// then a hinge and the webbing wedge</span>
+		reversePurlRows(<span class="hljs-number">2</span>, confines, frontYarn);
+		shortRows(drapeHeight, confines, <span class="hljs-string">"f"</span>, frontYarn, webbingFunction, <span class="hljs-literal">true</span>);
+
+	}
+
+	<span class="hljs-comment">// remove the pocket yarn and do an end flange/hem</span>
+	yarnOut(backYarn);
+	reversePurlRows(<span class="hljs-number">5</span>, confines, frontYarn);
+
+	<span class="hljs-comment">// knit back rightward so we can use the normal leftward bindoff</span>
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+		knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, frontYarn);
+	}
+	bindoff(<span class="hljs-string">"stretchy"</span>, confines, frontYarn);
+
+	title = <span class="hljs-string">"lampshade"</span>;
+}
+
+<span class="hljs-function" id="tentacle"><span class="hljs-keyword">function</span> <span class="hljs-title">tentacle</span> (<span class="hljs-params"></span>) </span>{
+	<span class="hljs-comment">// a three-string tentacle.</span>
+	confines = {<span class="hljs-attr">leftedge</span>: <span class="hljs-number">0</span>, <span class="hljs-attr">rightedge</span>: <span class="hljs-number">18</span>, <span class="hljs-attr">side</span>: <span class="hljs-string">"tube"</span>};
+
+	<span class="hljs-comment">// even space the strings around the circumberence of the tube</span>
+	<span class="hljs-keyword">var</span> circ = <span class="hljs-number">2</span>*(<span class="hljs-number">1</span>+confines.rightedge - confines.leftedge);
+	<span class="hljs-keyword">var</span> spacing = <span class="hljs-built_in">Math</span>.round(circ/<span class="hljs-number">3</span>);
+	<span class="hljs-keyword">var</span> firstStringLocation = confines.rightedge - <span class="hljs-number">1</span>; <span class="hljs-comment">// f</span>
+	<span class="hljs-keyword">var</span> secondStringLocation = confines.rightedge - spacing + <span class="hljs-number">1</span>; <span class="hljs-comment">// b</span>
+	<span class="hljs-keyword">var</span> thirdStringLocation = confines.rightedge - spacing - <span class="hljs-number">1</span>; <span class="hljs-comment">// f</span>
+	<span class="hljs-keyword">var</span> thirdPullstring = <span class="hljs-number">4</span>;
+
+	<span class="hljs-comment">// cast on and set up all six yarns</span>
+	caston(<span class="hljs-string">"tube"</span>, confines, middleYarn);
+	knitRows(<span class="hljs-number">1</span>, confines, <span class="hljs-string">"tube"</span>, middleYarn);
+	<span class="hljs-keyword">var</span> inTucks = tuckIn(backYarn, confines.rightedge + <span class="hljs-number">1</span>);
+	knitRows(<span class="hljs-number">1</span>, confines, <span class="hljs-string">"tube"</span>, backYarn);
+	dropAll(inTucks);
+	<span class="hljs-keyword">var</span> inTucks = tuckIn(frontYarn, confines.rightedge + <span class="hljs-number">1</span>);
+	knitRows(<span class="hljs-number">1</span>, confines, <span class="hljs-string">"tube"</span>, frontYarn);
+	dropAll(inTucks);
+
+	inTucks = tuckIn(pullstring, confines.leftedge - <span class="hljs-number">1</span>);
+	tuckTo(pullstring, <span class="hljs-string">"f"</span>, firstStringLocation, <span class="hljs-literal">false</span>);
+	dropAll(inTucks);
+	inTucks = tuckIn(secondPullstring, confines.rightedge + <span class="hljs-number">1</span>);
+	tuckTo(secondPullstring, <span class="hljs-string">"b"</span>, secondStringLocation, <span class="hljs-literal">false</span>);
+	dropAll(inTucks);
+	inTucks = tuckIn(thirdPullstring, confines.rightedge + <span class="hljs-number">1</span>);
+	tuckTo(thirdPullstring, <span class="hljs-string">"f"</span>, thirdStringLocation, <span class="hljs-literal">false</span>);
+	dropAll(inTucks);
+
+
+	<span class="hljs-comment">// call main two-pullstring-bed function</span>
+	knitWithTwoVertPullstrings(height, confines, frontYarn, middleYarn, backYarn);
+
+	<span class="hljs-comment">// bring the pullstrings out gracefully (leave some extra length)</span>
+	<span class="hljs-keyword">var</span> outTucks = tuckOut(pullstring, confines.rightedge + <span class="hljs-number">10</span>);
+	outTucks = outTucks.concat(tuckOut(secondPullstring, confines.rightedge + <span class="hljs-number">10</span>));
+	outTucks = outTucks.concat(tuckOut(thirdPullstring, confines.rightedge + <span class="hljs-number">10</span>));
+	outTucks.sort(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">a, b</span>) </span>{<span class="hljs-keyword">return</span> b.needle - a.needle; });
+	dropAll(outTucks);
+	yarnOut(frontYarn);
+	yarnOut(backYarn);
+
+	<span class="hljs-comment">// taper the top of the tentacle using inc/dec shaping</span>
+	<span class="hljs-keyword">while</span> (<span class="hljs-number">1</span> + confines.rightedge - confines.leftedge &gt; <span class="hljs-number">5</span>) {
+			confines.rightedge = moveChunk({<span class="hljs-attr">rightedge</span>: confines.rightedge, <span class="hljs-attr">leftedge</span>: confines.rightedge - <span class="hljs-number">1</span>, <span class="hljs-attr">side</span>: <span class="hljs-string">"tube"</span>}, <span class="hljs-number">-1</span>).rightedge;
+			confines.leftedge = moveChunk({<span class="hljs-attr">leftedge</span>: confines.leftedge, <span class="hljs-attr">rightedge</span>: confines.leftedge + <span class="hljs-number">1</span>, <span class="hljs-attr">side</span>: <span class="hljs-string">"tube"</span>}, <span class="hljs-number">1</span>).leftedge;
+			knitRows(<span class="hljs-number">2</span>, confines, <span class="hljs-string">"tube"</span>, middleYarn);
+	}
+
+	bindoff(<span class="hljs-string">"closed"</span>, confines, middleYarn);
+
+	title = <span class="hljs-string">"tentacle"</span>;
+}
+
+<span class="hljs-function" id="scarf"><span class="hljs-keyword">function</span> <span class="hljs-title">scrunchScarf</span> (<span class="hljs-params"></span>) </span>{
+	<span class="hljs-comment">// manually scrunchable? a dense grid of strings?</span>
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">weaveManeuver</span> (<span class="hljs-params">confines, pullstring, mainYarn</span>) </span>{
+		<span class="hljs-comment">// tuck in drawstring</span>
+		<span class="hljs-keyword">var</span> weaveFunction = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">s</span>) </span>{<span class="hljs-keyword">return</span> (s%<span class="hljs-number">2</span> == <span class="hljs-number">0</span>) ? <span class="hljs-string">"k"</span> : <span class="hljs-string">"p"</span>;}
+
+		splitRow(confines, <span class="hljs-string">"f"</span>, weaveFunction);
+		<span class="hljs-keyword">var</span> inTucks = tuckIn(pullstring, confines.rightedge + <span class="hljs-number">8</span>);
+		<span class="hljs-keyword">var</span> overTucks = tuckTo(pullstring, <span class="hljs-string">"f"</span>, confines.leftedge - <span class="hljs-number">3</span>, <span class="hljs-literal">true</span>);
+		
+		rejoinRow(confines, <span class="hljs-string">"f"</span>, weaveFunction);
+		dropAll(overTucks);
+
+		drop(<span class="hljs-string">"f"</span>, confines.leftedge - <span class="hljs-number">3</span>);
+		knitLeft(confines, <span class="hljs-string">"f"</span>, mainYarn);
+		knitRight(confines, <span class="hljs-string">"f"</span>, mainYarn);
+
+		splitRow(confines, <span class="hljs-string">"f"</span>, weaveFunction);
+		overTucks = tuckTo(pullstring, <span class="hljs-string">"f"</span>, confines.rightedge + <span class="hljs-number">8</span>, <span class="hljs-literal">true</span>);
+		rejoinRow(confines, <span class="hljs-string">"f"</span>, weaveFunction);
+		dropAll(overTucks);
+		yarnOut(pullstring);
+		dropAll(inTucks);
+	}
+
+	<span class="hljs-keyword">var</span> bumpWidth = <span class="hljs-number">20</span>;
+	<span class="hljs-keyword">var</span> stepSize = <span class="hljs-number">1</span>;
+
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">bottomShortRows</span> (<span class="hljs-params">confines, carrier, rowOffset</span>) </span>{
+		<span class="hljs-keyword">var</span> numberOfBumps = (confines.rightedge - confines.leftedge)/bumpWidth;
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>-rowOffset; i<numberofbumps; i++)="" {="" var="" miniconfines="{rightedge:" confines.rightedge="" -="" i*bumpwidth,="" leftedge:="" (i+1)*bumpwidth};="" s;="" for="" (var="" h="0;" h<(bumpwidth="" 2)="" stepsize;="" h++)="" (s="miniConfines.rightedge" h*stepsize;="" s="">miniConfines.leftedge + h*stepSize; s--) {
+					<span class="hljs-keyword">if</span> (s&gt;=confines.leftedge &amp;&amp; s&lt;=confines.rightedge)knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+				}
+				<span class="hljs-keyword">if</span> (s&gt;=confines.leftedge &amp;&amp; s&lt;=confines.rightedge) tuck(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, miniConfines.leftedge + h*stepSize, carrier);
+				<span class="hljs-keyword">for</span> (s = s+<span class="hljs-number">1</span>; s<miniconfines.rightedge -="" h*stepsize;="" s++)="" {="" if="" (s="">=confines.leftedge &amp;&amp; s&lt;=confines.rightedge)knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+				}
+				<span class="hljs-keyword">if</span> (s<miniconfines.rightedge) {="" if="" (s="">=confines.leftedge &amp;&amp; s&lt;=confines.rightedge)tuck(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+				}
+			}
+			<span class="hljs-keyword">for</span> (s = s - <span class="hljs-number">1</span>; s&gt;miniConfines.leftedge; s--) {
+				<span class="hljs-keyword">if</span> (s&gt;=confines.leftedge &amp;&amp; s&lt;=confines.rightedge) knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+			}
+			
+		}
+		<span class="hljs-keyword">if</span> (s&gt;=confines.leftedge) knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, confines.leftedge, carrier);
+		knitRight(confines, <span class="hljs-string">"f"</span>, carrier);
+	}
+
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">topShortRows</span> (<span class="hljs-params">confines, carrier, rowOffset</span>) </span>{
+		<span class="hljs-keyword">var</span> numberOfBumps = (confines.rightedge - confines.leftedge)/bumpWidth;
+		<span class="hljs-keyword">var</span> s = confines.rightedge;
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>-rowOffset; i<numberofbumps; i++)="" {="" var="" miniconfines="{rightedge:" confines.rightedge="" -="" i*bumpwidth,="" leftedge:="" (i+1)*bumpwidth};="" for="" (var="" h="(bumpWidth/2)/stepSize;">0; h--) {
+				<span class="hljs-keyword">if</span> (s<miniconfines.rightedge &&="" s<confines.rightedge="" h<((bumpwidth="" 2)="" stepsize)-1)="" {="" tuck("-",="" "f",="" s+1,="" carrier);="" }="" for="" (s;="" s="">miniConfines.leftedge + h*stepSize; s--) {
+					<span class="hljs-keyword">if</span> (s&gt;=confines.leftedge &amp;&amp; s&lt;=confines.rightedge) knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+				}
+				<span class="hljs-keyword">if</span> (s&gt;=confines.leftedge  &amp;&amp; s&lt;=confines.rightedge &amp;&amp; (h &lt; (bumpWidth/<span class="hljs-number">2</span>)/stepSize)) tuck(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+				<span class="hljs-keyword">for</span> (s = s+<span class="hljs-number">1</span>; s<miniconfines.rightedge -="" h*stepsize;="" s++)="" {="" if="" (s="">=confines.leftedge &amp;&amp; s&lt;=confines.rightedge) knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+				}
+				s--;
+			}	
+		}
+		tuck(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s+<span class="hljs-number">1</span>, carrier);
+		<span class="hljs-keyword">for</span> (s; s&gt;=confines.leftedge; s--) {
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+		}
+		<span class="hljs-comment">// knit("-", "f", confines.leftedge, carrier);</span>
+		knitRight(confines, <span class="hljs-string">"f"</span>, carrier);
+	}
+
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">knitLeft</span> (<span class="hljs-params">confines, bed, carrier</span>) </span>{
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			knit(<span class="hljs-string">"-"</span>, bed, s, carrier);
+		}
+	}
+	<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">knitRight</span> (<span class="hljs-params">confines, bed, carrier</span>) </span>{
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			knit(<span class="hljs-string">"+"</span>, bed, s, carrier);
+		}
+	}
+
+	scarf = {<span class="hljs-attr">leftedge</span>:<span class="hljs-number">0</span>, <span class="hljs-attr">rightedge</span>: <span class="hljs-number">100</span>, <span class="hljs-attr">side</span>:<span class="hljs-string">"f"</span>};
+	caston(<span class="hljs-string">"tuck"</span>, scarf, middleYarn);
+	knitRows(<span class="hljs-number">3</span>, scarf, <span class="hljs-string">"f"</span>, middleYarn, <span class="hljs-literal">false</span>);
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> h=<span class="hljs-number">0</span>; h&lt;<span class="hljs-number">10</span>; h++) {
+		bottomShortRows(scarf, middleYarn, <span class="hljs-number">0</span>);
+		<span class="hljs-comment">// knitLeft(scarf, "f", middleYarn);</span>
+		weaveManeuver(scarf, pullstring, middleYarn);
+		<span class="hljs-comment">// knitRight(scarf, "f", middleYarn);</span>
+		topShortRows(scarf, middleYarn, <span class="hljs-number">0.5</span>);
+		knitRows(<span class="hljs-number">1</span>, scarf, <span class="hljs-string">"f"</span>, middleYarn, <span class="hljs-literal">false</span>);
+
+		bottomShortRows(scarf, middleYarn, <span class="hljs-number">0.5</span>);
+		<span class="hljs-comment">// knitLeft(scarf, "f", middleYarn);</span>
+		weaveManeuver(scarf, pullstring, middleYarn);
+		<span class="hljs-comment">// knitRight(scarf, "f", middleYarn);</span>
+		topShortRows(scarf, middleYarn, <span class="hljs-number">0</span>);
+		knitRows(<span class="hljs-number">1</span>, scarf, <span class="hljs-string">"f"</span>, middleYarn, <span class="hljs-literal">false</span>);
+	}
+	knitRows(<span class="hljs-number">3</span>, scarf, <span class="hljs-string">"f"</span>, middleYarn, <span class="hljs-literal">false</span>);
+	<span class="hljs-comment">// bindoff("stretchy", scarf, middleYarn);</span>
+	yarnOut(middleYarn);
+	title = <span class="hljs-string">"scarf"</span>;
+}
+
+<span class="hljs-function" id="singleVertical"><span class="hljs-keyword">function</span> <span class="hljs-title">singleVertPrimitive</span> (<span class="hljs-params">factor</span>) </span>{
+	<span class="hljs-keyword">if</span> (factor) {
+		confines.rightedge = <span class="hljs-built_in">Math</span>.round(factor*width);
+	}
+	caston(<span class="hljs-string">"tube"</span>, confines, frontYarn);
+	knitRows(<span class="hljs-number">1</span>, confines, <span class="hljs-string">"tube"</span>, frontYarn);
+	<span class="hljs-keyword">var</span> inTucks = tuckIn(backYarn, confines.rightedge + <span class="hljs-number">1</span>);
+	knitRows(<span class="hljs-number">1</span>, confines, <span class="hljs-string">"tube"</span>, backYarn);
+	dropAll(inTucks);
+
+	<span class="hljs-keyword">var</span> midpoint = <span class="hljs-built_in">Math</span>.round((confines.rightedge+confines.leftedge)/<span class="hljs-number">2</span>);
+	inTucks = tuckIn(pullstring, confines.rightedge + <span class="hljs-number">1</span>);
+	tuckTo(pullstring, <span class="hljs-string">"f"</span>, midpoint, <span class="hljs-literal">false</span>);
+	dropAll(inTucks);
+
+	knitWithVertPullstring(height/<span class="hljs-number">2</span>, confines, <span class="hljs-string">"f"</span>, frontYarn, backYarn);
+
+	tuckOut(pullstring, confines.rightedge + <span class="hljs-number">10</span>);
+	yarnOut(frontYarn);
+	fingertip(confines, backYarn);
+	bindoff(<span class="hljs-string">"closed"</span>, confines, backYarn);
+	title = <span class="hljs-string">"singleVert"</span>;
+}
+
+
+<span class="hljs-comment">// // ================================================================= </span>
+<span class="hljs-comment">// // ======================= ~ High-Level ~ ========================== </span>
+<span class="hljs-comment">// // ================================================================= </span>
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">knitWithVertPullstring</span> (<span class="hljs-params">height, confines, pullstringSide, frontCarrier, backCarrier</span>) </span>{
+	<span class="hljs-keyword">var</span> sameCarrier = (pullstringSide == <span class="hljs-string">"f"</span>) ? frontCarrier : backCarrier;	
+	<span class="hljs-keyword">var</span> oppCarrier = (pullstringSide == <span class="hljs-string">"f"</span>) ? backCarrier : frontCarrier;
+	<span class="hljs-keyword">var</span> oppSide = (pullstringSide == <span class="hljs-string">"f"</span>) ? <span class="hljs-string">"b"</span> : <span class="hljs-string">"f"</span>;
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> h=<span class="hljs-number">0</span>; h<height; h++)="" {="" if="" (h%2="=" 0)="" knitrows(1,="" confines,="" pullstringside,="" samecarrier,="" true);="" oppside,="" oppcarrier,="" }="" else="" knitrows(2,="" "tube",="" oppcarrier);="" function="" knitwithtwovertpullstrings="" (height,="" frontcarrier,="" middlecarrier,="" backcarrier)="" for="" (var="" h="0;" h<height="" 2;="" "f",="" "b",="" backcarrier,="" middlecarrier);="" =="===============================================================" ~="" helpers="" primarily="" row-level="" functions,="" such="" as="" cast-ons,="" basic="" short="" rows,="" and="" functions="" that="" tuck="" across="" a="" row.="" knitrows="" side,="" carrier,="" tuckedges)="" (side="=" "tube")="" h<height;="" s="confines.rightedge;">=confines.leftedge; s--) {
+				<span class="hljs-comment">// console.log(h, s);</span>
+				knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+			}
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+				<span class="hljs-comment">// console.log(h, s);</span>
+				knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+			}
+		}
+	}
+	<span class="hljs-keyword">else</span> {
+		<span class="hljs-keyword">var</span> bed = side;
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> h=<span class="hljs-number">0</span>; h<height; h++)="" {="" if="" (tuckedges="" &&="" side="=" "b")="" tuck("+",="" "f",="" confines.rightedge,="" carrier);="" }="" for="" (var="" s="confines.rightedge;">=confines.leftedge; s--) {
+				<span class="hljs-comment">// console.log(h, s);</span>
+				knit(<span class="hljs-string">"-"</span>, bed, s, carrier);
+			}
+			<span class="hljs-keyword">if</span> (tuckEdges &amp;&amp; side == <span class="hljs-string">"f"</span>) {
+				tuck(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, confines.leftedge, carrier);
+			}
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+				<span class="hljs-comment">// console.log(h, s);</span>
+				knit(<span class="hljs-string">"+"</span>, bed, s, carrier);
+			}
+		}
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">garterRows</span> (<span class="hljs-params">numberOfRows, confines, carrier</span>) </span>{
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> h=<span class="hljs-number">0</span>; h<numberofrows; h++)="" {="" for="" (var="" s="confines.rightedge;">=confines.leftedge; s--) {
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			xfer(<span class="hljs-string">"f"</span>, s, <span class="hljs-string">"bs"</span>, s);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"bs"</span>, s, carrier);
+		}	
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			xfer(<span class="hljs-string">"bs"</span>, s, <span class="hljs-string">"f"</span>, s);
+		}	
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">knitShortRows</span> (<span class="hljs-params">height, confines, side, carrier, rowsFunction, tuckEdges</span>) </span>{
+	<span class="hljs-keyword">var</span> bed = side;
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> h=<span class="hljs-number">0</span>; h<height; h++)="" {="" shortconfines="rowsFunction(confines," h);="" if="" (tuckedges="" &&="" shortconfines.rightedge="" <="" confines.rightedge)="" tuck("+",="" bed,="" +="" 1,="" carrier);="" }="" for="" (var="" s="shortConfines.rightedge;">=shortConfines.leftedge; s--) {
+			<span class="hljs-comment">// console.log(h, s);</span>
+			knit(<span class="hljs-string">"-"</span>, bed, s, carrier);
+		}
+		<span class="hljs-keyword">if</span> (tuckEdges &amp;&amp; shortConfines.leftedge &gt; confines.leftedge) {
+			tuck(<span class="hljs-string">"+"</span>, bed, shortConfines.leftedge - <span class="hljs-number">1</span>, carrier);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=shortConfines.leftedge; s&lt;=shortConfines.rightedge; s++) {
+			<span class="hljs-comment">// console.log(h, s);</span>
+			knit(<span class="hljs-string">"+"</span>, bed, s, carrier);
+		}
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">knitRowToStitch</span>(<span class="hljs-params">confines, bed, stitch, carrier</span>) </span>{
+	<span class="hljs-comment">// basic function that assumes this is a tube</span>
+	<span class="hljs-keyword">if</span> (bed == <span class="hljs-string">"b"</span>) {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = confines.rightedge; s&gt;=confines.leftedge; s--) {
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=stitch; s++) {
+			knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+		}	
+	}
+	<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (bed == <span class="hljs-string">"f"</span>) {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = confines.rightedge; s&gt;=stitch; s--) {
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+		}
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">knitRowFromStitch</span>(<span class="hljs-params">confines, bed, stitch, carrier</span>) </span>{
+	<span class="hljs-comment">// basic function that assumes this is a tube and the start stitch is on the back bed</span>
+	<span class="hljs-keyword">if</span> (bed == <span class="hljs-string">"b"</span>) {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=stitch; s&lt;=confines.rightedge; s++) {
+			knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+		}
+	}
+	<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (bed == <span class="hljs-string">"f"</span>) {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = stitch; s&gt;=confines.leftedge; s--) {
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+		}
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">caston</span> (<span class="hljs-params">style, confines, carrier</span>) </span>{
+	<span class="hljs-keyword">if</span> (!carriers[carrier] || !carriers[carrier].in) {
+		yarnIn(carrier);
+	}
+	<span class="hljs-keyword">if</span> (style == <span class="hljs-string">"tube"</span>) {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			<span class="hljs-keyword">if</span> (s%<span class="hljs-number">2</span> == confines.rightedge%<span class="hljs-number">2</span>) {
+				knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+			}
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			<span class="hljs-keyword">if</span> (s%<span class="hljs-number">2</span> != confines.rightedge%<span class="hljs-number">2</span>) {
+				knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+			}
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			<span class="hljs-keyword">if</span> (s%<span class="hljs-number">2</span> != confines.rightedge%<span class="hljs-number">2</span>) {
+				knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+			}
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			<span class="hljs-keyword">if</span> (s%<span class="hljs-number">2</span> == confines.rightedge%<span class="hljs-number">2</span>) {
+				knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+			}
+		}
+	}
+	<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (style == <span class="hljs-string">"allneedle"</span>) {
+		align(<span class="hljs-number">-1</span>);
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+		}
+		align(<span class="hljs-number">0</span>);
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+			knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+		}
+	}
+	<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (style == <span class="hljs-string">"tuck"</span>) {
+		k.stitchNumber(<span class="hljs-number">94</span>);
+		<span class="hljs-keyword">var</span> bed = confines.side;
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			<span class="hljs-keyword">if</span> (<span class="hljs-built_in">Math</span>.abs(s%<span class="hljs-number">2</span>) == <span class="hljs-built_in">Math</span>.abs(confines.rightedge%<span class="hljs-number">2</span>)) {
+				knit(<span class="hljs-string">"-"</span>, bed, s, carrier);
+			}
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			<span class="hljs-keyword">if</span> (<span class="hljs-built_in">Math</span>.abs(s%<span class="hljs-number">2</span>) != <span class="hljs-built_in">Math</span>.abs(confines.rightedge%<span class="hljs-number">2</span>)) {
+				knit(<span class="hljs-string">"+"</span>, bed, s, carrier);
+			}
+		}
+		k.stitchNumber(<span class="hljs-number">95</span>);
+	}
+	<span class="hljs-keyword">if</span> (carriers[<span class="hljs-string">"hook"</span>]) {
+		releaseHook(carrier);
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">triangleShortRows</span> (<span class="hljs-params">bed, confines, carrier, setback</span>) </span>{
+	<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> setback == <span class="hljs-string">"undefined"</span>) setback = <span class="hljs-number">1</span>;
+	<span class="hljs-comment">// shortrow a nice round fingertip</span>
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = confines.rightedge; s&gt;confines.leftedge+((((confines.rightedge - confines.leftedge)/(<span class="hljs-number">2</span>*setback))<span class="hljs-number">-1</span>)*setback); s--) {
+		knit(<span class="hljs-string">"-"</span>, bed, s, carrier);
+	}
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-built_in">Math</span>.round((confines.rightedge - confines.leftedge)/(<span class="hljs-number">2</span>*setback)); i&gt;<span class="hljs-number">0</span>; i--) {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = <span class="hljs-built_in">Math</span>.round(confines.rightedge - (i*setback) - <span class="hljs-number">1</span>); s&gt;confines.leftedge+((i<span class="hljs-number">-1</span>)*setback); s--) {
+			knit(<span class="hljs-string">"-"</span>, bed, s, carrier);
+		}
+		tuck(<span class="hljs-string">"+"</span>, bed, <span class="hljs-built_in">Math</span>.round(confines.leftedge+((i<span class="hljs-number">-1</span>)*setback)), carrier);
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = <span class="hljs-built_in">Math</span>.round(confines.leftedge+((i<span class="hljs-number">-1</span>)*setback) + <span class="hljs-number">1</span>); s &lt;= confines.rightedge - ((i)*setback); s++) {
+			knit(<span class="hljs-string">"+"</span>, bed, s, carrier);
+		}
+		<span class="hljs-keyword">if</span> (i&gt;<span class="hljs-number">1</span>) tuck(<span class="hljs-string">"-"</span>, bed, <span class="hljs-built_in">Math</span>.round(confines.rightedge - ((i - <span class="hljs-number">1</span>)*setback)), carrier);
+		<span class="hljs-keyword">else</span> {
+			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = <span class="hljs-built_in">Math</span>.round(confines.rightedge - ((i - <span class="hljs-number">1</span>)*setback)); s&lt;=confines.rightedge; s++) {
+				knit(<span class="hljs-string">"+"</span>, bed, s, carrier);
+			}
+		}
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">fingertip</span> (<span class="hljs-params">confines, carrier, setback</span>) </span>{
+	<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> setback == <span class="hljs-string">"undefined"</span>) setback = <span class="hljs-number">1</span>;
+	triangleShortRows(<span class="hljs-string">"f"</span>, confines, carrier, setback);
+	triangleShortRows(<span class="hljs-string">"b"</span>, confines, carrier, setback);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">bindoff</span> (<span class="hljs-params">style, confines, carrier</span>) </span>{
+	<span class="hljs-keyword">if</span> (style == <span class="hljs-string">"closed"</span>) {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+			xfer(<span class="hljs-string">"b"</span>, s, <span class="hljs-string">"f"</span>, s);
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+			<span class="hljs-keyword">if</span> (s != confines.leftedge) xfer(<span class="hljs-string">"f"</span>, s, <span class="hljs-string">"b"</span>, s - <span class="hljs-number">1</span>, <span class="hljs-string">"centered"</span>);
+		}
+		align(<span class="hljs-string">"centered"</span>);
+		<span class="hljs-keyword">var</span> tag = makeTag(confines.leftedge, carrier);
+		yarnOut(carrier);
+		dropAll(tag);
+	}
+	<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (style == <span class="hljs-string">"stretchy"</span>) {
+		k.stitchNumber(<span class="hljs-number">93</span>);
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+		}
+		k.stitchNumber(<span class="hljs-number">94</span>);
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+			tuck(<span class="hljs-string">"+"</span>, <span class="hljs-string">"b"</span>, s, carrier);
+			xfer(<span class="hljs-string">"f"</span>, s, <span class="hljs-string">"bs"</span>, s);
+			xfer(<span class="hljs-string">"bs"</span>, s, <span class="hljs-string">"f"</span>, s+<span class="hljs-number">1</span>);
+			align(<span class="hljs-string">"centered"</span>);
+		}
+		align(<span class="hljs-string">"centered"</span>);
+		k.stitchNumber(<span class="hljs-number">95</span>);
+		<span class="hljs-keyword">var</span> tag = makeTag(confines.rightedge+<span class="hljs-number">1</span>, carrier);
+		yarnOut(carrier);
+		<span class="hljs-comment">// dropAll(tag);</span>
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.leftedge; s&lt;=confines.rightedge; s++) {
+			drop(<span class="hljs-string">"bs"</span>, s);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=tag.leftedge; s&lt;=tag.rightedge; s++) {
+			drop(<span class="hljs-string">"f"</span>, s);
+		}
+	}
+	<span class="hljs-keyword">else</span> {
+		yarnOut(carrier);
+		dropAll(confines);
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">makeTag</span> (<span class="hljs-params">s, carrier</span>) </span>{
+	knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+	knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+	knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+	knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s+<span class="hljs-number">1</span>, carrier);
+	knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+	knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+	knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s+<span class="hljs-number">1</span>, carrier);
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i=<span class="hljs-number">0</span>; i&lt;<span class="hljs-number">3</span>; i++) {
+		knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s+<span class="hljs-number">2</span>, carrier);
+		knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s+<span class="hljs-number">1</span>, carrier);
+		knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+		knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s, carrier);
+		knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s+<span class="hljs-number">1</span>, carrier);
+		knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, s+<span class="hljs-number">2</span>, carrier);
+	}
+	<span class="hljs-keyword">return</span> {<span class="hljs-attr">leftedge</span>: s, <span class="hljs-attr">rightedge</span>: s+<span class="hljs-number">2</span>};
+}
+
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">splitRow</span> (<span class="hljs-params">confines, side, ribFunction</span>) </span>{
+	<span class="hljs-keyword">var</span> otherSide = (side == <span class="hljs-string">"f"</span>) ? <span class="hljs-string">"bs"</span> : <span class="hljs-string">"fs"</span>;
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = confines.rightedge; s&gt;=confines.leftedge; s--) {
+		<span class="hljs-keyword">if</span> (ribFunction(s)==<span class="hljs-string">"p"</span>) {
+			xfer(side, s, otherSide, s);
+		}
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">rejoinRow</span> (<span class="hljs-params">confines, side, ribFunction</span>) </span>{
+	<span class="hljs-keyword">var</span> otherSide = (side == <span class="hljs-string">"f"</span>) ? <span class="hljs-string">"bs"</span> : <span class="hljs-string">"fs"</span>;
+	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = confines.rightedge; s&gt;=confines.leftedge; s--) {
+		<span class="hljs-keyword">if</span> (ribFunction(s)==<span class="hljs-string">"p"</span>) {
+			xfer(otherSide, s, side, s);
+		}
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">tuckIn</span> (<span class="hljs-params">carrier, location</span>) </span>{
+	<span class="hljs-keyword">var</span> tempsList = [];
+	yarnIn(carrier);
+	tempsList = tuckAndRecord(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, location+<span class="hljs-number">2</span>, carrier, tempsList);
+	tempsList = tuckAndRecord(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, location, carrier, tempsList);
+	tempsList = tuckAndRecord(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, location+<span class="hljs-number">1</span>, carrier, tempsList);
+	knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, location+<span class="hljs-number">2</span>, carrier);
+	knit(<span class="hljs-string">"-"</span>, <span class="hljs-string">"f"</span>, location, carrier);
+	knit(<span class="hljs-string">"+"</span>, <span class="hljs-string">"f"</span>, location+<span class="hljs-number">1</span>, carrier);
+	releaseHook(carrier);
+	<span class="hljs-keyword">return</span> tempsList;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">tuckOut</span> (<span class="hljs-params">carrier, location</span>) </span>{
+	tempsList = tuckTo(carrier, <span class="hljs-string">"f"</span>, location, <span class="hljs-literal">true</span>);
+	yarnOut(carrier);
+	drop(<span class="hljs-string">"f"</span>, location);
+	<span class="hljs-keyword">return</span> tempsList;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">tuckTo</span> (<span class="hljs-params">carrier, bed, location, useTemps</span>) </span>{
+	<span class="hljs-comment">// if temps are requested, the destination location will be a tuck on the literal needle requested, </span>
+	<span class="hljs-comment">// whether that's hook or "slider", but the interim ones will be all on "sliders" and then dropped</span>
+	<span class="hljs-keyword">var</span> lastNeedle = carriers[carrier].lastNeedle;
+	<span class="hljs-keyword">var</span> tempBed = bed;
+	<span class="hljs-keyword">var</span> tempsList = [];
+	<span class="hljs-keyword">if</span> (useTemps) tempBed = (bed == <span class="hljs-string">"f"</span> || bed == <span class="hljs-string">"fs"</span>) ? <span class="hljs-string">"fs"</span> : <span class="hljs-string">"bs"</span>;
+	<span class="hljs-keyword">if</span> (lastNeedle - location &gt; <span class="hljs-number">0</span>) {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = lastNeedle; s&gt;location; s--) {
+			<span class="hljs-keyword">if</span> ((lastNeedle - s) % tuckDist == <span class="hljs-number">0</span>) {
+				tempsList = tuckAndRecord(<span class="hljs-string">"-"</span>, tempBed, s, carrier, tempsList);
+			}
+		}
+		tuck(<span class="hljs-string">"-"</span>, bed, location, carrier);
+	}
+	<span class="hljs-keyword">else</span> {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s = lastNeedle; s<location; s++)="" {="" if="" ((s="" -="" lastneedle)="" %="" tuckdist="=" 0)="" tempslist="tuckAndRecord(&quot;+" ,"="" tempbed,="" s,="" carrier,="" tempslist);="" }="" tuck("+",="" bed,="" location,="" carrier);="" (usetemps)="" dropall(tempslist);="" return="" tempslist;="" function="" tuckandrecord="" (direction,="" needle,="" tuckslist)="" tuck(direction,="" console.log({bed:="" needle:="" needle});="" tuckslist.push({bed:="" tuckslist;="" dropall="" (tuckslist)="" (tuckslist.rightedge)="" (tuckslist.side="=" "f"="" ||="" tuckslist.side="=" "tube"="" !tuckslist.side)="" for="" (var="" i="tucksList.leftedge;" i<="tucksList.rightedge;" i++)="" drop("f",="" i);="" "b"="" "tube")="" drop("b",="" else="" i<tuckslist.length;="" var="" thistuck="tucksList[i];" console.log(thistuck.bed,="" thistuck.needle);="" drop(thistuck.bed,="" [];="" movechunk="" (confines,="" offset)="" (confines.side="=" confines.side="=" s="confines.rightedge;">=confines.leftedge; s--) {
+			xfer(<span class="hljs-string">"f"</span>, s, <span class="hljs-string">"bs"</span>, s);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			xfer(<span class="hljs-string">"bs"</span>, s, <span class="hljs-string">"f"</span>, s+offset);
+		}
+	}
+	<span class="hljs-keyword">if</span> (confines.side == <span class="hljs-string">"b"</span> || confines.side == <span class="hljs-string">"tube"</span>) {
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			xfer(<span class="hljs-string">"b"</span>, s, <span class="hljs-string">"fs"</span>, s+offset);
+		}
+		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> s=confines.rightedge; s&gt;=confines.leftedge; s--) {
+			xfer(<span class="hljs-string">"fs"</span>, s+offset, <span class="hljs-string">"b"</span>, s+offset);
+		}
+	}
+	align(<span class="hljs-string">"centered"</span>);
+	confines.rightedge = confines.rightedge + offset;
+	confines.leftedge = confines.leftedge + offset;
+	<span class="hljs-keyword">return</span> confines;
+}
+
+
+<span class="hljs-comment">// // ================================================================= </span>
+<span class="hljs-comment">// // ======================= ~ Low-level ~ =========================== </span>
+<span class="hljs-comment">// // ================================================================= </span>
+
+<span class="hljs-comment">// These functions handle half-gauge needle allocation, half-gauge racking,</span>
+<span class="hljs-comment">// yarn in/out, and transfers at implicit rack values. </span>
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">mapNeedle</span> (<span class="hljs-params">bed, needle</span>) </span>{
+	<span class="hljs-keyword">var</span> mappedBed, mappedNeedle;
+	<span class="hljs-keyword">if</span> (gauge == <span class="hljs-string">"full"</span>) {
+		mappedBed = bed;
+		mappedNeedle = needle;
+	}
+	<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (gauge == <span class="hljs-string">"half"</span>) {
+		mappedBed = (bed == <span class="hljs-string">"f"</span> || bed == <span class="hljs-string">"fs"</span>) ? <span class="hljs-string">"f"</span> : <span class="hljs-string">"b"</span>;
+		mappedNeedle = (bed == <span class="hljs-string">"f"</span> || bed == <span class="hljs-string">"bs"</span>) ? (<span class="hljs-number">2</span>*needle) - <span class="hljs-number">1</span> : <span class="hljs-number">2</span>*needle;
+	}
+	<span class="hljs-comment">// console.log({bed: mappedBed, needle: mappedNeedle});</span>
+	<span class="hljs-keyword">return</span> {<span class="hljs-attr">bed</span>: mappedBed, <span class="hljs-attr">needle</span>: mappedNeedle};
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">knit</span> (<span class="hljs-params">direction, bed, needle, carrier</span>) </span>{
+	<span class="hljs-comment">// console.log("knitting with", carrier);</span>
+	carriers[carrier].lastNeedle = needle;
+	<span class="hljs-keyword">var</span> mappedNeedle = mapNeedle(bed, needle);
+	k.knit(direction, mappedNeedle.bed + mappedNeedle.needle, carrier);
+}
+
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">miss</span> (<span class="hljs-params">direction, bed, needle, carrier</span>) </span>{
+	carriers[carrier].lastNeedle = needle;
+	<span class="hljs-keyword">var</span> mappedNeedle = mapNeedle(bed, needle);
+	k.miss(direction, mappedNeedle.bed + mappedNeedle.needle, carrier);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">tuck</span> (<span class="hljs-params">direction, bed, needle, carrier</span>) </span>{
+	carriers[carrier].lastNeedle = needle;
+	<span class="hljs-keyword">var</span> mappedNeedle = mapNeedle(bed, needle);
+	k.tuck(direction, mappedNeedle.bed + mappedNeedle.needle, carrier);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">drop</span> (<span class="hljs-params">bed, needle</span>) </span>{
+	<span class="hljs-keyword">var</span> mappedNeedle = mapNeedle(bed, needle);
+	k.drop(mappedNeedle.bed + mappedNeedle.needle);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">amiss</span> (<span class="hljs-params">bed, needle</span>) </span>{
+	<span class="hljs-keyword">var</span> mappedNeedle = mapNeedle(bed, needle);
+	k.amiss(mappedNeedle.bed + mappedNeedle.needle);
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">split</span> (<span class="hljs-params">direction, fromBed, fromNeedle, toBed, toNeedle, carrier</span>) </span>{
+	<span class="hljs-comment">// console.log("knitting with", carrier);</span>
+	carriers[carrier].lastNeedle = fromNeedle;
+
+	<span class="hljs-comment">// duplicates the rack logic from xfer</span>
+
+	<span class="hljs-keyword">if</span> (fromBed == toBed || (fromBed == <span class="hljs-string">"f"</span> &amp;&amp; toBed == <span class="hljs-string">"fs"</span>)|| (fromBed == <span class="hljs-string">"fs"</span> &amp;&amp; toBed == <span class="hljs-string">"f"</span>)|| (fromBed == <span class="hljs-string">"b"</span> &amp;&amp; toBed == <span class="hljs-string">"bs"</span>)|| (fromBed == <span class="hljs-string">"bs"</span> &amp;&amp; toBed == <span class="hljs-string">"b"</span>)) {
+		<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"cannot split to same bed! (you'll need to split there, then xfer back) attempted: "</span>, fromBed, fromNeedle, toBed, toNeedle);
+	}
+	<span class="hljs-keyword">else</span> {
+		mappedFrom = mapNeedle(fromBed, fromNeedle);
+		mappedTo = mapNeedle(toBed, toNeedle);
+		offset = mappedTo.needle - mappedFrom.needle;
+		<span class="hljs-keyword">if</span> (fromBed == <span class="hljs-string">"f"</span> || fromBed == <span class="hljs-string">"fs"</span>) offset = <span class="hljs-number">0</span> - offset;
+		k.rack(offset);
+		k.split(direction, mappedFrom.bed+mappedFrom.needle, mappedTo.bed+mappedTo.needle, carrier);
+		<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> returnAlignment !== <span class="hljs-string">'undefined'</span>) align(returnAlignment);
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">yarnIn</span> (<span class="hljs-params">carrier</span>) </span>{
+	k.inhook(carrier);
+	<span class="hljs-keyword">if</span> (!carriers[carrier]) carriers[carrier] = {};
+	carriers[carrier].in = <span class="hljs-literal">true</span>;
+	carriers[<span class="hljs-string">"hook"</span>] = <span class="hljs-literal">true</span>;
+	<span class="hljs-comment">// console.log("yarn in: ", carrier, carriers);</span>
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">releaseHook</span> (<span class="hljs-params">carrier</span>) </span>{
+	k.releasehook(carrier);
+	carriers[<span class="hljs-string">"hook"</span>] = <span class="hljs-literal">false</span>;
+	<span class="hljs-comment">// console.log("releaseHook");</span>
+	<span class="hljs-comment">// if (carriers["hook"]) {</span>
+	<span class="hljs-comment">// }</span>
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">yarnOut</span> (<span class="hljs-params">carrier</span>) </span>{
+	<span class="hljs-comment">// console.log("yarn out: ", carrier, carriers);</span>
+	k.outhook(carrier);
+	carriers[carrier].in = <span class="hljs-literal">false</span>;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">align</span> (<span class="hljs-params">alignment</span>) </span>{
+	<span class="hljs-keyword">if</span> (alignment == <span class="hljs-string">"centered"</span>) {
+		<span class="hljs-keyword">if</span> (gauge == <span class="hljs-string">"full"</span>) {
+			k.rack(<span class="hljs-number">-0.75</span>);
+		}
+		<span class="hljs-keyword">else</span> {
+			k.rack(<span class="hljs-number">0</span>);
+		}
+	}
+	<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> alignment == <span class="hljs-string">"number"</span>) {
+		<span class="hljs-keyword">if</span> (gauge == <span class="hljs-string">"full"</span>) {
+			k.rack(alignment);
+		}
+		<span class="hljs-keyword">else</span> {
+			k.rack(<span class="hljs-number">2</span>*alignment);
+		}
+	}
+	<span class="hljs-keyword">else</span> {
+		<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"unrecognized alignment style"</span>);
+	}
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">xfer</span> (<span class="hljs-params">fromBed, fromNeedle, toBed, toNeedle, returnAlignment</span>) </span>{
+	<span class="hljs-keyword">if</span> (fromBed == <span class="hljs-string">"hf"</span>) fromBed = <span class="hljs-string">"fs"</span>;
+	<span class="hljs-keyword">if</span> (fromBed == <span class="hljs-string">"hb"</span>) fromBed = <span class="hljs-string">"bs"</span>;
+	<span class="hljs-keyword">if</span> (toBed == <span class="hljs-string">"hf"</span>) toBed = <span class="hljs-string">"fs"</span>;
+	<span class="hljs-keyword">if</span> (toBed == <span class="hljs-string">"hb"</span>) toBed = <span class="hljs-string">"bs"</span>;
+	<span class="hljs-keyword">if</span> (fromBed == toBed || (fromBed == <span class="hljs-string">"f"</span> &amp;&amp; toBed == <span class="hljs-string">"fs"</span>)|| (fromBed == <span class="hljs-string">"fs"</span> &amp;&amp; toBed == <span class="hljs-string">"f"</span>)|| (fromBed == <span class="hljs-string">"b"</span> &amp;&amp; toBed == <span class="hljs-string">"bs"</span>)|| (fromBed == <span class="hljs-string">"bs"</span> &amp;&amp; toBed == <span class="hljs-string">"b"</span>)) {
+		<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"cannot xfer to same bed! attempted: "</span>, fromBed, fromNeedle, toBed, toNeedle);
+	}
+	<span class="hljs-keyword">else</span> {
+		mappedFrom = mapNeedle(fromBed, fromNeedle);
+		mappedTo = mapNeedle(toBed, toNeedle);
+		offset = mappedTo.needle - mappedFrom.needle;
+		<span class="hljs-keyword">if</span> (fromBed == <span class="hljs-string">"f"</span> || fromBed == <span class="hljs-string">"fs"</span>) offset = <span class="hljs-number">0</span> - offset;
+		k.rack(offset);
+		k.xfer(mappedFrom.bed+mappedFrom.needle, mappedTo.bed+mappedTo.needle);
+		<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> returnAlignment !== <span class="hljs-string">'undefined'</span>) align(returnAlignment);
+	}
+}
+
+	</location;></height;></numberofrows;></height;></height;></miniconfines.rightedge></miniconfines.rightedge></numberofbumps;></miniconfines.rightedge)></miniconfines.rightedge></numberofbumps;></numberofsegments;></numberofrows;></numberofrows;></numberofrows;></height>
+</code></pre>
+
+</body></html>

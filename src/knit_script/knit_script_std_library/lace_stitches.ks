@@ -358,3 +358,52 @@ def two_eyelets(tuck_needles_index, knit_rows_after = 1, do_tuck = True): {
     }
 
 }
+
+def knit_across(width, direction_is): {
+    // for each needle station it tries to knit front, then back, then tuck
+    // only runs inside width
+    if direction_is == Leftward: {
+        for needle_index in range(width - 1, -1, -1): {
+
+            if Front_Needles[needle_index] in Loops: {
+                in direction_is direction: {
+                    knit Front_Needles[needle_index];
+                }
+                
+            }
+            elif Back_Needles[needle_index] in Loops: {
+                in direction_is direction: {
+                    knit Back_Needles[needle_index];
+                }
+            }
+            else: {
+                in direction_is direction: {
+                    tuck Front_Needles[needle_index];
+                }
+            }
+        }
+    }
+    else: {
+        for needle_index in range(width): {
+
+            if Front_Needles[needle_index] in Loops: {
+                in direction_is direction: {
+                    knit Front_Needles[needle_index];
+                }
+                
+            }
+            elif Back_Needles[needle_index] in Loops: {
+                in direction_is direction: {
+                    knit Back_Needles[needle_index];
+                }
+            }
+            else: {
+                in direction_is direction: {
+                    tuck Front_Needles[needle_index];
+                }
+            }
+        }
+    }
+    
+
+}

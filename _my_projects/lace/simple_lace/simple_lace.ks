@@ -2,22 +2,23 @@
 
 import cast_ons;
 import bind_offs;
+import lace_stitches;
+
 
 width = 50;
 height = 50;
-eyelet_spacing = 3; // knit stiches inbetween eyelet tucks
+eyelet_spacing = 5; // knit stiches inbetween eyelet tucks
 
 with Carrier as c1: {
     cast_ons.alt_tuck_cast_on(width, is_front = True);
+
     for row in range(height): {
         if row % 4 == 0: {
             // left eyelet
             tuck_needles = [n for n in Front_Loops[eyelet_spacing - 1 : 0 - eyelet_spacing : eyelet_spacing]];
             xfer tuck_needles across to Back bed;
             xfer Back_Loops 1 to Left;
-            in reverse direction: {
-                tuck tuck_needles;
-            }
+            lace_stitches.knit_across(width, Leftward);
             
         }
         elif row % 4 == 2: {
@@ -25,18 +26,23 @@ with Carrier as c1: {
             tuck_needles = [n for n in Front_Loops[eyelet_spacing - 1: 0 - eyelet_spacing: eyelet_spacing]];
             xfer tuck_needles across to Back bed;
             xfer Back_Loops 1 to Right;
-            in reverse direction: {
-                tuck tuck_needles;
-            }
+            lace_stitches.knit_across(width, Leftward);
             
         }
+        else: {
+            
+            xfer Loops across to Back bed;
+            
+            in Rightward direction: {
+                knit Loops;
+            }
 
-        in reverse direction: {
-            knit Loops;
+            xfer Loops across to Front bed;
         }
 
+
     }
-    bind_offs.chain_bind_off(Loops, Rightward);
+    bind_offs.chain_bind_off(Loops, Leftward);
 }
 
 /*
