@@ -1,6 +1,6 @@
 # draw a bit map using black and white emojis and it will convert it to 1s and zeros
 # black as 1, white is 0 because its more like drawing...
-symbols = [" ", "X", "O"] # white, orange, blue
+symbols = [" ", "X", "|"] # white, orange, blue
 
 smiley = ["          ",
            " XXX  XXX ",
@@ -18,8 +18,8 @@ ghost = ["                ",
          "   XXXXXXXXXX   ",
          "  XXX  XXXX  X  ",
          "  XX    XX    X ",
-         "  XX  OOXX  OO  ",
-         " XXX  OOXX  OOX ",
+         "  XX  ||XX  ||X ",
+         " XXX  ||XX  ||X ",
          " XXXX  XXXX  XX ",
          " XXXXXXXXXXXXXX ",
          " XXXXXXXXXXXXXX ",
@@ -31,7 +31,12 @@ ghost = ["                ",
 
 
 
-def get_bit_map(drawing, symbols): 
+def get_bit_map(drawing, symbols, do_flip):
+    flipped_drawing = []
+    if do_flip: 
+        for row in drawing:
+            flipped_drawing = [row] + flipped_drawing
+        drawing = flipped_drawing
     bit_map = []
     variation_selector = "️" # this is not an empty string, its an invisible character
     for i, row in enumerate(drawing):
@@ -45,4 +50,4 @@ def get_bit_map(drawing, symbols):
                 quit()
     return bit_map
 
-print(get_bit_map(ghost, symbols))
+print(get_bit_map(ghost, symbols, True))

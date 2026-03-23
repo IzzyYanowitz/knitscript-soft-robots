@@ -1,4 +1,4 @@
-// for now, limit bit maps to 2 colors
+
 // the dat converter freaks out if you use more than 2 carriers
 // i don't know why
 
@@ -28,20 +28,20 @@ smiley_face = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
            [0, 0, 1, 1, 1, 1, 1, 1, 0, 0]];
 
 ghost = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-         [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0], 
-         [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0], 
-         [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0], 
-         [0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0], 
-         [0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0], 
-         [0, 0, 1, 1, 0, 0, 2, 2, 1, 1, 0, 0, 2, 2, 0, 0], 
-         [0, 1, 1, 1, 0, 0, 2, 2, 1, 1, 0, 0, 2, 2, 1, 0], 
-         [0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0], 
-         [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], 
-         [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], 
-         [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], 
-         [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], 
-         [0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0], 
          [0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0], 
+         [0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0], 
+         [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], 
+         [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], 
+         [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], 
+         [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0], 
+         [0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0], 
+         [0, 1, 1, 1, 0, 0, 2, 2, 1, 1, 0, 0, 2, 2, 1, 0], 
+         [0, 0, 1, 1, 0, 0, 2, 2, 1, 1, 0, 0, 2, 2, 1, 0], 
+         [0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0], 
+         [0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0], 
+         [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0], 
+         [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0], 
+         [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0], 
          [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]];
 
 bit_map = ghost;
@@ -53,6 +53,8 @@ pattern_height = len(bit_map);
 
 carriers = [c2, c9, c5]; // make sure len(carriers) - 1 = max(bit_map)
 
+do_ribbing = False; // ribbing makes it curl less but fucks with pattern slightly
+do_garder = True; // might also help with the curl
 
 def alt_tuck_linking(color_needles, all_needles, direction_is): {
         
@@ -60,10 +62,6 @@ def alt_tuck_linking(color_needles, all_needles, direction_is): {
 
     // if you wanted to knit on the back bed aswell as the front, you'd have to be more careful about this logic
     // maybe implementing something similar to my knit_across function in oriel_lace.ks
-    
-    
-        
-    
     
         
     do_tuck = False;
@@ -130,23 +128,27 @@ def get_loops_from_pattern(expanded_row, color_index): {
     // goes from pattern and sheet to loops
     
     
-    front_pattern_loops = [];
+    pattern_loops = [];
 
 
     for i, loop in enumerate(Loops): {
 
             if expanded_row[i] == color_index: {
-                front_pattern_loops.append(loop);
+                pattern_loops.append(loop);
             }
 
         }
 
-    return front_pattern_loops;
+    return pattern_loops;
 }
 
 
 with Carrier as carriers[0]: {
     cast_ons.alt_tuck_cast_on(pixel_width * pattern_width, is_front = True);
+    if do_ribbing: {
+        xfer Loops[1 : : 2] across; // xfer every other loop to back for ribbing
+    }
+    
 }
 
 // set up all carriers
@@ -162,6 +164,16 @@ for carr in carriers: {
     }
 }
 
+active_needles = Front_Loops;
+    
+if do_ribbing: {
+    // you need to intersperse front_loops and back_loops
+    active_needles = [];
+    for i in range(len(Front_Loops)): {
+        active_needles.append(Front_Loops[i]);
+        active_needles.append(Back_Loops[i]);
+    }
+}
 
 for pattern_row in bit_map: {
     // the pattern is the same inside a pixel so i have two separate row loops
@@ -177,18 +189,30 @@ for pattern_row in bit_map: {
     }
 
     
+    
     for row in range(pixel_height): {
+        
+        if do_garder: {
+            xfer Loops across;
+            active_needles = [Back_Loops, Front_Loops][row % 2];
+            
+            // you have to get the pattern loops again because you changed where the loops are
+            color_patterns = [];
+            for i in range(len(carriers)): {
+                color_patterns.append(get_loops_from_pattern(expanded_pattern_row, i));
+            }
+        }
 
+    
         direc = [Leftward, Rightward][row % 2];
         
         for i, carr in enumerate(carriers): {
             
             with Carrier as carr: {
-    
-                alt_tuck_linking(color_patterns[i], Front_Loops, direc);
+                
+                alt_tuck_linking(color_patterns[i], active_needles, direc);
 
             }
-            
 
         }
     }
@@ -199,7 +223,11 @@ with Carrier as carriers[0]: {
     // knit a row to stabalize
     
     in reverse direction: {
-        knit Front_Loops;
+        knit Loops;
+    }
+
+    if do_ribbing or do_garder: {
+        xfer Back_Loops across;
     }
 
     bind_offs.chain_bind_off(Front_Loops, Rightward);
