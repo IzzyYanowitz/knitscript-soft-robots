@@ -4,9 +4,9 @@ from knit_script.knit_graphs.knit_graph_viz import visualize_sheet
 import os;
 
 
-source_dir = "_my_projects/alt_tuck_linking/bit_map_knitter/" # this is the folder the .ks file is located in. Make sure this path ends with a /
-title = "bit_map_knitter" # this is the name of the project and .ks file
-version = "_ghost"
+source_dir = "_my_projects/swatches/two_color_brioche/" # this is the folder the .ks file is located in. Make sure this path ends with a /
+title = "two_color_brioche" # this is the name of the project and .ks file
+version = ""
 if not os.path.isdir(source_dir + version):
     os.mkdir(source_dir + version)
 

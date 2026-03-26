@@ -51,10 +51,12 @@ pixel_height = 12; // number of stitches per pixel in y direction
 pattern_width = len(bit_map[0]);
 pattern_height = len(bit_map); 
 
-carriers = [c2, c9, c5]; // make sure len(carriers) - 1 = max(bit_map)
+carriers = [c1, c5, c4]; // make sure len(carriers) - 1 = max(bit_map)
 
+
+// don't set both of these to true, i have no idea what kind of bugs that would cause
 do_ribbing = False; // ribbing makes it curl less but fucks with pattern slightly
-do_garder = True; // might also help with the curl
+do_garder = False; // might also help with the curl
 
 def alt_tuck_linking(color_needles, all_needles, direction_is): {
         
