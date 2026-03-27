@@ -41,7 +41,12 @@ with Carrier as front_carr: {
 }
 
 with Carrier as back_carr: {
+    in Leftward direction: {
+        tuck Back_Needles[width];
+    }
+    drop Back_Needles[width];
     brioche_knit(knit_loops = Back_Loops, tuck_needles = Front_Loops, direct = Leftward);
+    releasehook;
 }
 
 row_direct = Rightward;
@@ -59,7 +64,9 @@ for row in range(height): {
     row_direct = [Leftward, Rightward][row % 2];
 }
 
+cut back_carr;
+
 with Carrier as front_carr: {
     xfer Back_Loops 1 to Right; // re-interlace back and front loops
-    bind_offs.chain_bind_off(Loops, row_direct);
+    bind_offs.chain_bind_off(Loops, row_direct, hold = False);
 }

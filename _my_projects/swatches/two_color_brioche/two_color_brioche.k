@@ -435,6 +435,8 @@ tuck - b0 4
 knit - f0 4
 rack 0.0;Reset rack from all_needle
 inhook 5;Activating carrier 5
+tuck - b50 5
+drop b50
 rack 0.25;All Needle racking 0.0 to right
 knit - b48 5
 tuck - f48 5
@@ -535,6 +537,7 @@ rack 0.25;All Needle racking 0.0 to right
 knit - b0 5
 tuck - f0 5
 rack 0.0;Reset rack from all_needle
+releasehook 5
 rack 0.25;All Needle racking 0.0 to right
 knit + f0 4
 tuck + b0 4
@@ -10535,6 +10538,7 @@ rack 0.25;All Needle racking 0.0 to right
 knit - b0 5
 tuck - f0 5
 rack 0.0;Reset rack from all_needle
+outhook 5
 rack 1;Rack to 1 at 1 gauge
 xfer b0 f1
 xfer b2 f3
@@ -10565,298 +10569,248 @@ rack 0.0;Rack to 0.0 at 1 gauge
 rack -1;Rack to -1 at 1 gauge
 xfer f0 b1
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b1 f1 4
+xfer b1 f1
 knit + f1 4
 rack -1;Rack to -1 at 1 gauge
 xfer f1 b2
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b2 f2 4
+xfer b2 f2
 knit + f2 4
 rack -1;Rack to -1 at 1 gauge
 xfer f2 b3
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b3 f3 4
+xfer b3 f3
 knit + f3 4
 rack -1;Rack to -1 at 1 gauge
 xfer f3 b4
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b4 f4 4
+xfer b4 f4
 knit + f4 4
 rack -1;Rack to -1 at 1 gauge
 xfer f4 b5
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b5 f5 4
+xfer b5 f5
 knit + f5 4
 rack -1;Rack to -1 at 1 gauge
 xfer f5 b6
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b6 f6 4
+xfer b6 f6
 knit + f6 4
 rack -1;Rack to -1 at 1 gauge
 xfer f6 b7
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b7 f7 4
+xfer b7 f7
 knit + f7 4
 rack -1;Rack to -1 at 1 gauge
 xfer f7 b8
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b8 f8 4
+xfer b8 f8
 knit + f8 4
 rack -1;Rack to -1 at 1 gauge
 xfer f8 b9
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b9 f9 4
+xfer b9 f9
 knit + f9 4
 rack -1;Rack to -1 at 1 gauge
 xfer f9 b10
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b10 f10 4
+xfer b10 f10
 knit + f10 4
 rack -1;Rack to -1 at 1 gauge
 xfer f10 b11
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b11 f11 4
+xfer b11 f11
 knit + f11 4
 rack -1;Rack to -1 at 1 gauge
 xfer f11 b12
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b12 f12 4
+xfer b12 f12
 knit + f12 4
 rack -1;Rack to -1 at 1 gauge
 xfer f12 b13
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b13 f13 4
+xfer b13 f13
 knit + f13 4
 rack -1;Rack to -1 at 1 gauge
 xfer f13 b14
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b14 f14 4
+xfer b14 f14
 knit + f14 4
 rack -1;Rack to -1 at 1 gauge
 xfer f14 b15
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b15 f15 4
+xfer b15 f15
 knit + f15 4
 rack -1;Rack to -1 at 1 gauge
 xfer f15 b16
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b16 f16 4
+xfer b16 f16
 knit + f16 4
 rack -1;Rack to -1 at 1 gauge
 xfer f16 b17
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b17 f17 4
+xfer b17 f17
 knit + f17 4
 rack -1;Rack to -1 at 1 gauge
 xfer f17 b18
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b18 f18 4
+xfer b18 f18
 knit + f18 4
 rack -1;Rack to -1 at 1 gauge
 xfer f18 b19
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b19 f19 4
+xfer b19 f19
 knit + f19 4
 rack -1;Rack to -1 at 1 gauge
 xfer f19 b20
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b20 f20 4
+xfer b20 f20
 knit + f20 4
 rack -1;Rack to -1 at 1 gauge
 xfer f20 b21
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b21 f21 4
+xfer b21 f21
 knit + f21 4
 rack -1;Rack to -1 at 1 gauge
 xfer f21 b22
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b22 f22 4
+xfer b22 f22
 knit + f22 4
 rack -1;Rack to -1 at 1 gauge
 xfer f22 b23
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b23 f23 4
+xfer b23 f23
 knit + f23 4
 rack -1;Rack to -1 at 1 gauge
 xfer f23 b24
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b24 f24 4
+xfer b24 f24
 knit + f24 4
 rack -1;Rack to -1 at 1 gauge
 xfer f24 b25
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b25 f25 4
+xfer b25 f25
 knit + f25 4
 rack -1;Rack to -1 at 1 gauge
 xfer f25 b26
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b26 f26 4
+xfer b26 f26
 knit + f26 4
 rack -1;Rack to -1 at 1 gauge
 xfer f26 b27
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b27 f27 4
+xfer b27 f27
 knit + f27 4
 rack -1;Rack to -1 at 1 gauge
 xfer f27 b28
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b28 f28 4
+xfer b28 f28
 knit + f28 4
 rack -1;Rack to -1 at 1 gauge
 xfer f28 b29
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b29 f29 4
+xfer b29 f29
 knit + f29 4
 rack -1;Rack to -1 at 1 gauge
 xfer f29 b30
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b30 f30 4
+xfer b30 f30
 knit + f30 4
 rack -1;Rack to -1 at 1 gauge
 xfer f30 b31
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b31 f31 4
+xfer b31 f31
 knit + f31 4
 rack -1;Rack to -1 at 1 gauge
 xfer f31 b32
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b32 f32 4
+xfer b32 f32
 knit + f32 4
 rack -1;Rack to -1 at 1 gauge
 xfer f32 b33
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b33 f33 4
+xfer b33 f33
 knit + f33 4
 rack -1;Rack to -1 at 1 gauge
 xfer f33 b34
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b34 f34 4
+xfer b34 f34
 knit + f34 4
 rack -1;Rack to -1 at 1 gauge
 xfer f34 b35
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b35 f35 4
+xfer b35 f35
 knit + f35 4
 rack -1;Rack to -1 at 1 gauge
 xfer f35 b36
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b36 f36 4
+xfer b36 f36
 knit + f36 4
 rack -1;Rack to -1 at 1 gauge
 xfer f36 b37
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b37 f37 4
+xfer b37 f37
 knit + f37 4
 rack -1;Rack to -1 at 1 gauge
 xfer f37 b38
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b38 f38 4
+xfer b38 f38
 knit + f38 4
 rack -1;Rack to -1 at 1 gauge
 xfer f38 b39
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b39 f39 4
+xfer b39 f39
 knit + f39 4
 rack -1;Rack to -1 at 1 gauge
 xfer f39 b40
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b40 f40 4
+xfer b40 f40
 knit + f40 4
 rack -1;Rack to -1 at 1 gauge
 xfer f40 b41
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b41 f41 4
+xfer b41 f41
 knit + f41 4
 rack -1;Rack to -1 at 1 gauge
 xfer f41 b42
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b42 f42 4
+xfer b42 f42
 knit + f42 4
 rack -1;Rack to -1 at 1 gauge
 xfer f42 b43
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b43 f43 4
+xfer b43 f43
 knit + f43 4
 rack -1;Rack to -1 at 1 gauge
 xfer f43 b44
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b44 f44 4
+xfer b44 f44
 knit + f44 4
 rack -1;Rack to -1 at 1 gauge
 xfer f44 b45
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b45 f45 4
+xfer b45 f45
 knit + f45 4
 rack -1;Rack to -1 at 1 gauge
 xfer f45 b46
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b46 f46 4
+xfer b46 f46
 knit + f46 4
 rack -1;Rack to -1 at 1 gauge
 xfer f46 b47
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b47 f47 4
+xfer b47 f47
 knit + f47 4
 rack -1;Rack to -1 at 1 gauge
 xfer f47 b48
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b48 f48 4
+xfer b48 f48
 knit + f48 4
 rack -1;Rack to -1 at 1 gauge
 xfer f48 b49
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b49 f49 4
+xfer b49 f49
 knit + f49 4
-;KS: Spare knitting on [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49]
-knit - b49 4
-knit - b48 4
-knit - b47 4
-knit - b46 4
-knit - b45 4
-knit - b44 4
-knit - b43 4
-knit - b42 4
-knit - b41 4
-knit - b40 4
-knit - b39 4
-knit - b38 4
-knit - b37 4
-knit - b36 4
-knit - b35 4
-knit - b34 4
-knit - b33 4
-knit - b32 4
-knit - b31 4
-knit - b30 4
-knit - b29 4
-knit - b28 4
-knit - b27 4
-knit - b26 4
-knit - b25 4
-knit - b24 4
-knit - b23 4
-knit - b22 4
-knit - b21 4
-knit - b20 4
-knit - b19 4
-knit - b18 4
-knit - b17 4
-knit - b16 4
-knit - b15 4
-knit - b14 4
-knit - b13 4
-knit - b12 4
-knit - b11 4
-knit - b10 4
-knit - b9 4
-knit - b8 4
-knit - b7 4
-knit - b6 4
-knit - b5 4
-knit - b4 4
-knit - b3 4
-knit - b2 4
-knit - b1 4
-releasehook 5;Release inserting hook before cutting all yarns
+;KS: Spare knitting on [f49]
+knit - f49 4
 outhook 4;Cutting active yarn on 4
-outhook 5;Cutting active yarn on 5
