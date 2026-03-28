@@ -4,24 +4,24 @@ import bind_offs;
 width_gauge = 4.5; // st/cm
 height_gauge = 6.8; // st/cm
 
-def make_finger(left_side_index, width, height): {
-    // makes a finger. The width and height should be in cm.
+def cm_to_sts(dimensions): {
+    // converts a length two array [width, height] in cm to stitches
+    return [int(dimensions[0] * width_gauge), int(dimensions[1] * height_gauge)];
+}
 
-    // tuck a random needle to get the yarn inserting hook out of the way
+def make_finger(left_side_index, dimensions): {
+    // makes a finger 
+    // dimensions is [width, height]
+    // The width and height should be in stitches.
+
 
     
-
-
-    // adjusts width and height to be in stitches
-    width = int(width * width_gauge);
-    height = int(height * height_gauge);
+    width = dimensions[0];
+    height = dimensions[1];
     left_side_index = left_side_index + int(width/2);
     right_side_index = left_side_index + 1;
 
-    in Leftward direction: {
-        tuck Back_Needles[width + 1];
-    }
-    drop Back_Needles[width + 1];
+    
    
     starting_needles = [Front_Needles[left_side_index], 
                         Front_Needles[left_side_index + 1],
@@ -41,22 +41,27 @@ def make_finger(left_side_index, width, height): {
     current_width = 2;
     while current_width < width: {
         // there has to be weird racking to get the splits to work
-
+        
         
         
         // rack over to split then rack back
-        =
+        
         
         Racking = 1.0; // front bed is 1 right
+        
         in Leftward direction: {
             split Front_Needles[right_side_index];
         }
         
+        
         Racking = 0.0; // front bed is aligned
+        
+        print(Back_Needles[right_side_index + 1]);
         xfer Back_Needles[right_side_index + 1] across;
         
         // knit normal needles
         in Leftward direction: {
+            knit Front_Needles[right_side_index + 1]; // this just finishes the increase
             knit Front_Needles[left_side_index + 1 : right_side_index];
         }
 
@@ -67,6 +72,11 @@ def make_finger(left_side_index, width, height): {
         }
         Racking = 0.0; // front bed is aligned
         xfer Back_Needles[left_side_index - 1] across;
+
+        // finish the increase
+        in Leftward direction: {
+            knit Front_Needles[left_side_index - 1];
+        }
 
 
         // rack over to split then rack back
@@ -80,6 +90,7 @@ def make_finger(left_side_index, width, height): {
         
         // knit normal needles
         in Rightward direction: {
+            knit Back_Needles[left_side_index - 1]; // finish the increase
             knit Back_Needles[left_side_index + 1 : right_side_index];
         }
         
@@ -91,11 +102,18 @@ def make_finger(left_side_index, width, height): {
         Racking = 0.0;
         xfer Front_Needles[right_side_index + 1] across;
         
+        // finish the increase
+        in Rightward direction: {
+            knit Back_Needles[right_side_index + 1];
+        }
+        
 
         left_side_index = left_side_index - 1;
         right_side_index = right_side_index + 1;
         current_width = current_width + 2;
+        
     }
+
 
     // knit main body of finger
     for row in range(height): {
@@ -111,6 +129,28 @@ def make_finger(left_side_index, width, height): {
 
 }
 
+
+finger_dims = {"thumb": [4, 5.5],
+               "index": [3.5, 7],
+               "middle": [3.75, 7.5],
+               "ring": [3.25, 7],
+               "pinky": [3,5.5]};
+
+total_width = 0;
+
+// convert finger_dims to stitch counts and find total width
+for finger in finger_dims: {
+    finger_dims[finger] = cm_to_sts(finger_dims[finger]);
+    total_width = total_width + finger_dims[finger][0];
+}
+
+
+
+
+
+
 with Carrier as c1: {
-    make_finger(left_side_index = 0, width = 3, height = 5.5);
+    
+
+    make_finger(left_side_index = 0, dimensions = finger_dims["pinky"]);
 }

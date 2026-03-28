@@ -5,11 +5,8 @@
 ;;Width: 540
 ;;Position: Right
 inhook 1;Activating carrier 1
-tuck - b1 1
-tuck - f0 1
-tuck + b0 1
-tuck + f1 1
-rack 1;Rack to 1 at 1 gauge
+tuck - b77 1
+drop b77
 releasehook 1;Release inserting hook before cutting all yarns
 outhook 1;Cutting active yarn on 1
-;Cannot transfer from f0 to b539 at rack of 1
+;Long float  of carrier 1 (i.e., >20) of 75 between 77 and b2
