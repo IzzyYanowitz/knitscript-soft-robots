@@ -6,7 +6,7 @@ import os;
 
 source_dir = "_my_projects/glove/finger/" # this is the folder the .ks file is located in. Make sure this path ends with a /
 title = "finger" # this is the name of the project and .ks file
-version = ""
+version = "_index"
 if not os.path.isdir(source_dir + version):
     os.mkdir(source_dir + version)
 

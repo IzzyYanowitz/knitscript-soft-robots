@@ -5,8 +5,332 @@
 ;;Width: 540
 ;;Position: Right
 inhook 1;Activating carrier 1
-tuck - b77 1
-drop b77
+tuck - b14 1
+drop b14
+tuck - b7 1
+tuck - f6 1
+tuck + b6 1
+tuck + f7 1
+rack -1;Rack to -1 at 1 gauge
+xfer f7 b8
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b8 f8
+split - f8 b8 1
+rack -1;Rack to -1 at 1 gauge
+xfer b8 f7
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f8 1
+rack 1;Rack to 1 at 1 gauge
+xfer f6 b5
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b5 f5
+split - f5 b5 1
+rack 1;Rack to 1 at 1 gauge
+xfer b5 f6
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f5 1
+;KS: 2
+rack 1;Rack to 1 at 1 gauge
+xfer f5 b4
+rack 0.0;Rack to 0.0 at 1 gauge
+;KS: 2
+rack -1;Rack to -1 at 1 gauge
+xfer b6 f5
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f5 b5
+split + b5 f5 1
+rack -1;Rack to -1 at 1 gauge
+xfer f5 b6
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b4 f5
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b5 1
+rack -1;Rack to -1 at 1 gauge
+xfer f8 b9
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b7 f8
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f8 b8
+split + b8 f8 1
+rack 1;Rack to 1 at 1 gauge
+xfer f8 b7
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b7 1
+rack -1;Rack to -1 at 1 gauge
+xfer b9 f8
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer f8 b9
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b9 f9
+split - f9 b9 1
+rack -1;Rack to -1 at 1 gauge
+xfer b9 f8
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f9 1
+knit - f7 1
+knit - f6 1
+rack 1;Rack to 1 at 1 gauge
+xfer f5 b4
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b4 f4
+split - f4 b4 1
+rack 1;Rack to 1 at 1 gauge
+xfer b4 f5
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f4 1
+;KS: 4
+rack 1;Rack to 1 at 1 gauge
+xfer f4 b3
+rack 0.0;Rack to 0.0 at 1 gauge
+;KS: 4
+rack -1;Rack to -1 at 1 gauge
+xfer b5 f4
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f4 b4
+split + b4 f4 1
+rack -1;Rack to -1 at 1 gauge
+xfer f4 b5
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b3 f4
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b4 1
+knit + b6 1
+knit + b7 1
+rack -1;Rack to -1 at 1 gauge
+xfer f9 b10
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b8 f9
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f9 b9
+split + b9 f9 1
+rack 1;Rack to 1 at 1 gauge
+xfer f9 b8
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b8 1
+rack -1;Rack to -1 at 1 gauge
+xfer b10 f9
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer f9 b10
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b10 f10
+split - f10 b10 1
+rack -1;Rack to -1 at 1 gauge
+xfer b10 f9
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f10 1
+knit - f8 1
+knit - f7 1
+knit - f6 1
+knit - f5 1
+rack 1;Rack to 1 at 1 gauge
+xfer f4 b3
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b3 f3
+split - f3 b3 1
+rack 1;Rack to 1 at 1 gauge
+xfer b3 f4
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f3 1
+;KS: 6
+rack 1;Rack to 1 at 1 gauge
+xfer f3 b2
+rack 0.0;Rack to 0.0 at 1 gauge
+;KS: 6
+rack -1;Rack to -1 at 1 gauge
+xfer b4 f3
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f3 b3
+split + b3 f3 1
+rack -1;Rack to -1 at 1 gauge
+xfer f3 b4
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b2 f3
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b3 1
+knit + b5 1
+knit + b6 1
+knit + b7 1
+knit + b8 1
+rack -1;Rack to -1 at 1 gauge
+xfer f10 b11
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b9 f10
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f10 b10
+split + b10 f10 1
+rack 1;Rack to 1 at 1 gauge
+xfer f10 b9
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b9 1
+rack -1;Rack to -1 at 1 gauge
+xfer b11 f10
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer f10 b11
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b11 f11
+split - f11 b11 1
+rack -1;Rack to -1 at 1 gauge
+xfer b11 f10
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f11 1
+knit - f9 1
+knit - f8 1
+knit - f7 1
+knit - f6 1
+knit - f5 1
+knit - f4 1
+rack 1;Rack to 1 at 1 gauge
+xfer f3 b2
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b2 f2
+split - f2 b2 1
+rack 1;Rack to 1 at 1 gauge
+xfer b2 f3
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f2 1
+;KS: 8
+rack 1;Rack to 1 at 1 gauge
+xfer f2 b1
+rack 0.0;Rack to 0.0 at 1 gauge
+;KS: 8
+rack -1;Rack to -1 at 1 gauge
+xfer b3 f2
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f2 b2
+split + b2 f2 1
+rack -1;Rack to -1 at 1 gauge
+xfer f2 b3
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b1 f2
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b2 1
+knit + b4 1
+knit + b5 1
+knit + b6 1
+knit + b7 1
+knit + b8 1
+knit + b9 1
+rack -1;Rack to -1 at 1 gauge
+xfer f11 b12
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b10 f11
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f11 b11
+split + b11 f11 1
+rack 1;Rack to 1 at 1 gauge
+xfer f11 b10
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b10 1
+rack -1;Rack to -1 at 1 gauge
+xfer b12 f11
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer f11 b12
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b12 f12
+split - f12 b12 1
+rack -1;Rack to -1 at 1 gauge
+xfer b12 f11
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f12 1
+knit - f10 1
+knit - f9 1
+knit - f8 1
+knit - f7 1
+knit - f6 1
+knit - f5 1
+knit - f4 1
+knit - f3 1
+rack 1;Rack to 1 at 1 gauge
+xfer f2 b1
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b1 f1
+split - f1 b1 1
+rack 1;Rack to 1 at 1 gauge
+xfer b1 f2
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f1 1
+;KS: 10
+rack 1;Rack to 1 at 1 gauge
+xfer f1 b0
+rack 0.0;Rack to 0.0 at 1 gauge
+;KS: 10
+rack -1;Rack to -1 at 1 gauge
+xfer b2 f1
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f1 b1
+split + b1 f1 1
+rack -1;Rack to -1 at 1 gauge
+xfer f1 b2
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b0 f1
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b1 1
+knit + b3 1
+knit + b4 1
+knit + b5 1
+knit + b6 1
+knit + b7 1
+knit + b8 1
+knit + b9 1
+knit + b10 1
+rack -1;Rack to -1 at 1 gauge
+xfer f12 b13
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b11 f12
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f12 b12
+split + b12 f12 1
+rack 1;Rack to 1 at 1 gauge
+xfer f12 b11
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b11 1
+rack -1;Rack to -1 at 1 gauge
+xfer b13 f12
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer f12 b13
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b13 f13
+split - f13 b13 1
+rack -1;Rack to -1 at 1 gauge
+xfer b13 f12
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f13 1
+knit - f11 1
+knit - f10 1
+knit - f9 1
+knit - f8 1
+knit - f7 1
+knit - f6 1
+knit - f5 1
+knit - f4 1
+knit - f3 1
+knit - f2 1
+rack 1;Rack to 1 at 1 gauge
+xfer f1 b0
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b0 f0
+split - f0 b0 1
+rack 1;Rack to 1 at 1 gauge
+xfer b0 f1
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f0 1
+;KS: 12
+rack 1;Rack to 1 at 1 gauge
 releasehook 1;Release inserting hook before cutting all yarns
 outhook 1;Cutting active yarn on 1
-;Long float  of carrier 1 (i.e., >20) of 75 between 77 and b2
+;Cannot transfer from f0 to b539 at rack of 1
