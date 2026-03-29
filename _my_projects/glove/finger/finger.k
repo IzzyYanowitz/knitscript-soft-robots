@@ -5,70 +5,8328 @@
 ;;Width: 540
 ;;Position: Right
 inhook 1;Activating carrier 1
-tuck - b17 1
-drop b17
-tuck - b9 1
-tuck - f8 1
-tuck + b8 1
-tuck + f9 1
+tuck - b79 1
+drop b79
+tuck - b72 1
+tuck - f71 1
+tuck + b71 1
+tuck + f72 1
 rack -1;Rack to -1 at 1 gauge
-xfer f9 b10
+xfer f72 b73
 rack 0.0;Rack to 0.0 at 1 gauge
-xfer b10 f10
-split - f10 b10 1
+xfer b73 f73
+split - f73 b73 1
 rack -1;Rack to -1 at 1 gauge
-xfer b10 f9
+xfer b73 f72
 rack 0.0;Rack to 0.0 at 1 gauge
-knit - f9 1
+knit - f72 1
 rack 1;Rack to 1 at 1 gauge
-xfer f8 b7
+xfer f71 b70
 rack 0.0;Rack to 0.0 at 1 gauge
-xfer b7 f7
-split - f7 b7 1
+xfer b70 f70
+split - f70 b70 1
 rack 1;Rack to 1 at 1 gauge
-xfer b7 f8
+xfer b70 f71
 rack 0.0;Rack to 0.0 at 1 gauge
-knit - f8 1
+knit - f71 1
 rack 1;Rack to 1 at 1 gauge
-xfer f7 b6
+xfer f70 b69
 rack 0.0;Rack to 0.0 at 1 gauge
 rack -1;Rack to -1 at 1 gauge
-xfer b8 f7
+xfer b71 f70
 rack 0.0;Rack to 0.0 at 1 gauge
-xfer f7 b7
-split + b7 f7 1
+xfer f70 b70
+split + b70 f70 1
 rack -1;Rack to -1 at 1 gauge
-xfer f7 b8
-rack 0.0;Rack to 0.0 at 1 gauge
-rack 1;Rack to 1 at 1 gauge
-xfer b6 f7
-rack 0.0;Rack to 0.0 at 1 gauge
-knit + b8 1
-rack -1;Rack to -1 at 1 gauge
-xfer f10 b11
+xfer f70 b71
 rack 0.0;Rack to 0.0 at 1 gauge
 rack 1;Rack to 1 at 1 gauge
-xfer b9 f10
+xfer b69 f70
 rack 0.0;Rack to 0.0 at 1 gauge
-xfer f10 b10
-split + b10 f10 1
+knit + b71 1
+rack -1;Rack to -1 at 1 gauge
+xfer f73 b74
+rack 0.0;Rack to 0.0 at 1 gauge
 rack 1;Rack to 1 at 1 gauge
-xfer f10 b9
+xfer b72 f73
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f73 b73
+split + b73 f73 1
+rack 1;Rack to 1 at 1 gauge
+xfer f73 b72
 rack 0.0;Rack to 0.0 at 1 gauge
 rack -1;Rack to -1 at 1 gauge
-xfer b11 f10
+xfer b74 f73
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + b9 1
+knit + b72 1
 rack -1;Rack to -1 at 1 gauge
-xfer f10 b11
+xfer f73 b74
 rack 0.0;Rack to 0.0 at 1 gauge
-xfer b11 f11
-split - f11 b11 1
+xfer b74 f74
+split - f74 b74 1
 rack -1;Rack to -1 at 1 gauge
-xfer b11 f10
+xfer b74 f73
 rack 0.0;Rack to 0.0 at 1 gauge
-knit - f10 1
-knit - f9 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+rack 1;Rack to 1 at 1 gauge
+xfer f70 b69
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b69 f69
+split - f69 b69 1
+rack 1;Rack to 1 at 1 gauge
+xfer b69 f70
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f70 1
+rack 1;Rack to 1 at 1 gauge
+xfer f69 b68
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b70 f69
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f69 b69
+split + b69 f69 1
+rack -1;Rack to -1 at 1 gauge
+xfer f69 b70
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b68 f69
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b70 1
+knit + b71 1
+knit + b72 1
+rack -1;Rack to -1 at 1 gauge
+xfer f74 b75
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b73 f74
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f74 b74
+split + b74 f74 1
+rack 1;Rack to 1 at 1 gauge
+xfer f74 b73
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b75 f74
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b73 1
+rack -1;Rack to -1 at 1 gauge
+xfer f74 b75
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b75 f75
+split - f75 b75 1
+rack -1;Rack to -1 at 1 gauge
+xfer b75 f74
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+rack 1;Rack to 1 at 1 gauge
+xfer f69 b68
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b68 f68
+split - f68 b68 1
+rack 1;Rack to 1 at 1 gauge
+xfer b68 f69
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f69 1
+rack 1;Rack to 1 at 1 gauge
+xfer f68 b67
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b69 f68
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f68 b68
+split + b68 f68 1
+rack -1;Rack to -1 at 1 gauge
+xfer f68 b69
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b67 f68
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+rack -1;Rack to -1 at 1 gauge
+xfer f75 b76
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b74 f75
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f75 b75
+split + b75 f75 1
+rack 1;Rack to 1 at 1 gauge
+xfer f75 b74
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b76 f75
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b74 1
+rack -1;Rack to -1 at 1 gauge
+xfer f75 b76
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b76 f76
+split - f76 b76 1
+rack -1;Rack to -1 at 1 gauge
+xfer b76 f75
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+rack 1;Rack to 1 at 1 gauge
+xfer f68 b67
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b67 f67
+split - f67 b67 1
+rack 1;Rack to 1 at 1 gauge
+xfer b67 f68
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f68 1
+rack 1;Rack to 1 at 1 gauge
+xfer f67 b66
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b68 f67
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f67 b67
+split + b67 f67 1
+rack -1;Rack to -1 at 1 gauge
+xfer f67 b68
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b66 f67
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+rack -1;Rack to -1 at 1 gauge
+xfer f76 b77
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b75 f76
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f76 b76
+split + b76 f76 1
+rack 1;Rack to 1 at 1 gauge
+xfer f76 b75
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b77 f76
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b75 1
+rack -1;Rack to -1 at 1 gauge
+xfer f76 b77
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b77 f77
+split - f77 b77 1
+rack -1;Rack to -1 at 1 gauge
+xfer b77 f76
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+rack 1;Rack to 1 at 1 gauge
+xfer f67 b66
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b66 f66
+split - f66 b66 1
+rack 1;Rack to 1 at 1 gauge
+xfer b66 f67
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f67 1
+rack 1;Rack to 1 at 1 gauge
+xfer f66 b65
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b67 f66
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f66 b66
+split + b66 f66 1
+rack -1;Rack to -1 at 1 gauge
+xfer f66 b67
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b65 f66
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+rack -1;Rack to -1 at 1 gauge
+xfer f77 b78
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b76 f77
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f77 b77
+split + b77 f77 1
+rack 1;Rack to 1 at 1 gauge
+xfer f77 b76
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b78 f77
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b76 1
+rack -1;Rack to -1 at 1 gauge
+xfer f77 b78
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b78 f78
+split - f78 b78 1
+rack -1;Rack to -1 at 1 gauge
+xfer b78 f77
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+rack 1;Rack to 1 at 1 gauge
+xfer f66 b65
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b65 f65
+split - f65 b65 1
+rack 1;Rack to 1 at 1 gauge
+xfer b65 f66
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f66 1
+rack 1;Rack to 1 at 1 gauge
+xfer f65 b64
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b66 f65
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f65 b65
+split + b65 f65 1
+rack -1;Rack to -1 at 1 gauge
+xfer f65 b66
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b64 f65
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+rack -1;Rack to -1 at 1 gauge
+xfer f78 b79
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b77 f78
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f78 b78
+split + b78 f78 1
+rack 1;Rack to 1 at 1 gauge
+xfer f78 b77
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b79 f78
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b77 1
+rack -1;Rack to -1 at 1 gauge
+xfer f78 b79
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b79 f79
+split - f79 b79 1
+rack -1;Rack to -1 at 1 gauge
+xfer b79 f78
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+rack 1;Rack to 1 at 1 gauge
+xfer f65 b64
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b64 f64
+split - f64 b64 1
+rack 1;Rack to 1 at 1 gauge
+xfer b64 f65
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f65 1
+rack 1;Rack to 1 at 1 gauge
+xfer f64 b63
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b65 f64
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f64 b64
+split + b64 f64 1
+rack -1;Rack to -1 at 1 gauge
+xfer f64 b65
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b63 f64
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+rack -1;Rack to -1 at 1 gauge
+xfer f79 b80
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b78 f79
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f79 b79
+split + b79 f79 1
+rack 1;Rack to 1 at 1 gauge
+xfer f79 b78
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b80 f79
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b78 1
+releasehook 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+knit - f79 1
+knit - f78 1
+knit - f77 1
+knit - f76 1
+knit - f75 1
+knit - f74 1
+knit - f73 1
+knit - f72 1
+knit - f71 1
+knit - f70 1
+knit - f69 1
+knit - f68 1
+knit - f67 1
+knit - f66 1
+knit - f65 1
+knit - f64 1
+knit + b64 1
+knit + b65 1
+knit + b66 1
+knit + b67 1
+knit + b68 1
+knit + b69 1
+knit + b70 1
+knit + b71 1
+knit + b72 1
+knit + b73 1
+knit + b74 1
+knit + b75 1
+knit + b76 1
+knit + b77 1
+knit + b78 1
+knit + b79 1
+;KS: end of thumb
+pause
+tuck - b63 1
+drop b63
+tuck - b56 1
+tuck - f55 1
+tuck + b55 1
+tuck + f56 1
+rack -1;Rack to -1 at 1 gauge
+xfer f56 b57
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b57 f57
+split - f57 b57 1
+rack -1;Rack to -1 at 1 gauge
+xfer b57 f56
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f56 1
+rack 1;Rack to 1 at 1 gauge
+xfer f55 b54
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b54 f54
+split - f54 b54 1
+rack 1;Rack to 1 at 1 gauge
+xfer b54 f55
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f55 1
+rack 1;Rack to 1 at 1 gauge
+xfer f54 b53
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b55 f54
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f54 b54
+split + b54 f54 1
+rack -1;Rack to -1 at 1 gauge
+xfer f54 b55
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b53 f54
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b55 1
+rack -1;Rack to -1 at 1 gauge
+xfer f57 b58
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b56 f57
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f57 b57
+split + b57 f57 1
+rack 1;Rack to 1 at 1 gauge
+xfer f57 b56
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b58 f57
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b56 1
+rack -1;Rack to -1 at 1 gauge
+xfer f57 b58
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b58 f58
+split - f58 b58 1
+rack -1;Rack to -1 at 1 gauge
+xfer b58 f57
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f57 1
+knit - f56 1
+knit - f55 1
+rack 1;Rack to 1 at 1 gauge
+xfer f54 b53
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b53 f53
+split - f53 b53 1
+rack 1;Rack to 1 at 1 gauge
+xfer b53 f54
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f54 1
+rack 1;Rack to 1 at 1 gauge
+xfer f53 b52
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b54 f53
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f53 b53
+split + b53 f53 1
+rack -1;Rack to -1 at 1 gauge
+xfer f53 b54
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b52 f53
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b54 1
+knit + b55 1
+knit + b56 1
+rack -1;Rack to -1 at 1 gauge
+xfer f58 b59
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b57 f58
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f58 b58
+split + b58 f58 1
+rack 1;Rack to 1 at 1 gauge
+xfer f58 b57
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b59 f58
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b57 1
+rack -1;Rack to -1 at 1 gauge
+xfer f58 b59
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b59 f59
+split - f59 b59 1
+rack -1;Rack to -1 at 1 gauge
+xfer b59 f58
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+rack 1;Rack to 1 at 1 gauge
+xfer f53 b52
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b52 f52
+split - f52 b52 1
+rack 1;Rack to 1 at 1 gauge
+xfer b52 f53
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f53 1
+rack 1;Rack to 1 at 1 gauge
+xfer f52 b51
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b53 f52
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f52 b52
+split + b52 f52 1
+rack -1;Rack to -1 at 1 gauge
+xfer f52 b53
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b51 f52
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+rack -1;Rack to -1 at 1 gauge
+xfer f59 b60
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b58 f59
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f59 b59
+split + b59 f59 1
+rack 1;Rack to 1 at 1 gauge
+xfer f59 b58
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b60 f59
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b58 1
+rack -1;Rack to -1 at 1 gauge
+xfer f59 b60
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b60 f60
+split - f60 b60 1
+rack -1;Rack to -1 at 1 gauge
+xfer b60 f59
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+rack 1;Rack to 1 at 1 gauge
+xfer f52 b51
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b51 f51
+split - f51 b51 1
+rack 1;Rack to 1 at 1 gauge
+xfer b51 f52
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f52 1
+rack 1;Rack to 1 at 1 gauge
+xfer f51 b50
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b52 f51
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f51 b51
+split + b51 f51 1
+rack -1;Rack to -1 at 1 gauge
+xfer f51 b52
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b50 f51
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+rack -1;Rack to -1 at 1 gauge
+xfer f60 b61
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b59 f60
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f60 b60
+split + b60 f60 1
+rack 1;Rack to 1 at 1 gauge
+xfer f60 b59
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b61 f60
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b59 1
+rack -1;Rack to -1 at 1 gauge
+xfer f60 b61
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b61 f61
+split - f61 b61 1
+rack -1;Rack to -1 at 1 gauge
+xfer b61 f60
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+rack 1;Rack to 1 at 1 gauge
+xfer f51 b50
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b50 f50
+split - f50 b50 1
+rack 1;Rack to 1 at 1 gauge
+xfer b50 f51
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f51 1
+rack 1;Rack to 1 at 1 gauge
+xfer f50 b49
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b51 f50
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f50 b50
+split + b50 f50 1
+rack -1;Rack to -1 at 1 gauge
+xfer f50 b51
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b49 f50
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+rack -1;Rack to -1 at 1 gauge
+xfer f61 b62
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b60 f61
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f61 b61
+split + b61 f61 1
+rack 1;Rack to 1 at 1 gauge
+xfer f61 b60
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b62 f61
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b60 1
+rack -1;Rack to -1 at 1 gauge
+xfer f61 b62
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b62 f62
+split - f62 b62 1
+rack -1;Rack to -1 at 1 gauge
+xfer b62 f61
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+rack 1;Rack to 1 at 1 gauge
+xfer f50 b49
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b49 f49
+split - f49 b49 1
+rack 1;Rack to 1 at 1 gauge
+xfer b49 f50
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f50 1
+rack 1;Rack to 1 at 1 gauge
+xfer f49 b48
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b50 f49
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f49 b49
+split + b49 f49 1
+rack -1;Rack to -1 at 1 gauge
+xfer f49 b50
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b48 f49
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+rack -1;Rack to -1 at 1 gauge
+xfer f62 b63
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b61 f62
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f62 b62
+split + b62 f62 1
+rack 1;Rack to 1 at 1 gauge
+xfer f62 b61
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b63 f62
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b61 1
+rack -1;Rack to -1 at 1 gauge
+xfer f62 b63
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b63 f63
+split - f63 b63 1
+rack -1;Rack to -1 at 1 gauge
+xfer b63 f62
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+rack 1;Rack to 1 at 1 gauge
+xfer f49 b48
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b48 f48
+split - f48 b48 1
+rack 1;Rack to 1 at 1 gauge
+xfer b48 f49
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f49 1
+rack 1;Rack to 1 at 1 gauge
+xfer f48 b47
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b49 f48
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f48 b48
+split + b48 f48 1
+rack -1;Rack to -1 at 1 gauge
+xfer f48 b49
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b47 f48
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+rack -1;Rack to -1 at 1 gauge
+xfer f63 b64
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b62 f63
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f63 b63
+split + b63 f63 1
+rack 1;Rack to 1 at 1 gauge
+xfer f63 b62
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b64 f63
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b62 1
+;no-op. Releasehook with no hooked carriers
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+knit - f63 1
+knit - f62 1
+knit - f61 1
+knit - f60 1
+knit - f59 1
+knit - f58 1
+knit - f57 1
+knit - f56 1
+knit - f55 1
+knit - f54 1
+knit - f53 1
+knit - f52 1
+knit - f51 1
+knit - f50 1
+knit - f49 1
+knit - f48 1
+knit + b48 1
+knit + b49 1
+knit + b50 1
+knit + b51 1
+knit + b52 1
+knit + b53 1
+knit + b54 1
+knit + b55 1
+knit + b56 1
+knit + b57 1
+knit + b58 1
+knit + b59 1
+knit + b60 1
+knit + b61 1
+knit + b62 1
+knit + b63 1
+;KS: end of index
+pause
+tuck - b47 1
+drop b47
+tuck - b40 1
+tuck - f39 1
+tuck + b39 1
+tuck + f40 1
+rack -1;Rack to -1 at 1 gauge
+xfer f40 b41
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b41 f41
+split - f41 b41 1
+rack -1;Rack to -1 at 1 gauge
+xfer b41 f40
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f40 1
+rack 1;Rack to 1 at 1 gauge
+xfer f39 b38
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b38 f38
+split - f38 b38 1
+rack 1;Rack to 1 at 1 gauge
+xfer b38 f39
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f39 1
+rack 1;Rack to 1 at 1 gauge
+xfer f38 b37
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b39 f38
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f38 b38
+split + b38 f38 1
+rack -1;Rack to -1 at 1 gauge
+xfer f38 b39
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b37 f38
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b39 1
+rack -1;Rack to -1 at 1 gauge
+xfer f41 b42
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b40 f41
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f41 b41
+split + b41 f41 1
+rack 1;Rack to 1 at 1 gauge
+xfer f41 b40
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b42 f41
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b40 1
+rack -1;Rack to -1 at 1 gauge
+xfer f41 b42
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b42 f42
+split - f42 b42 1
+rack -1;Rack to -1 at 1 gauge
+xfer b42 f41
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f41 1
+knit - f40 1
+knit - f39 1
+rack 1;Rack to 1 at 1 gauge
+xfer f38 b37
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b37 f37
+split - f37 b37 1
+rack 1;Rack to 1 at 1 gauge
+xfer b37 f38
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f38 1
+rack 1;Rack to 1 at 1 gauge
+xfer f37 b36
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b38 f37
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f37 b37
+split + b37 f37 1
+rack -1;Rack to -1 at 1 gauge
+xfer f37 b38
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b36 f37
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b38 1
+knit + b39 1
+knit + b40 1
+rack -1;Rack to -1 at 1 gauge
+xfer f42 b43
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b41 f42
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f42 b42
+split + b42 f42 1
+rack 1;Rack to 1 at 1 gauge
+xfer f42 b41
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b43 f42
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b41 1
+rack -1;Rack to -1 at 1 gauge
+xfer f42 b43
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b43 f43
+split - f43 b43 1
+rack -1;Rack to -1 at 1 gauge
+xfer b43 f42
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+rack 1;Rack to 1 at 1 gauge
+xfer f37 b36
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b36 f36
+split - f36 b36 1
+rack 1;Rack to 1 at 1 gauge
+xfer b36 f37
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f37 1
+rack 1;Rack to 1 at 1 gauge
+xfer f36 b35
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b37 f36
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f36 b36
+split + b36 f36 1
+rack -1;Rack to -1 at 1 gauge
+xfer f36 b37
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b35 f36
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+rack -1;Rack to -1 at 1 gauge
+xfer f43 b44
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b42 f43
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f43 b43
+split + b43 f43 1
+rack 1;Rack to 1 at 1 gauge
+xfer f43 b42
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b44 f43
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b42 1
+rack -1;Rack to -1 at 1 gauge
+xfer f43 b44
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b44 f44
+split - f44 b44 1
+rack -1;Rack to -1 at 1 gauge
+xfer b44 f43
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+rack 1;Rack to 1 at 1 gauge
+xfer f36 b35
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b35 f35
+split - f35 b35 1
+rack 1;Rack to 1 at 1 gauge
+xfer b35 f36
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f36 1
+rack 1;Rack to 1 at 1 gauge
+xfer f35 b34
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b36 f35
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f35 b35
+split + b35 f35 1
+rack -1;Rack to -1 at 1 gauge
+xfer f35 b36
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b34 f35
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+rack -1;Rack to -1 at 1 gauge
+xfer f44 b45
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b43 f44
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f44 b44
+split + b44 f44 1
+rack 1;Rack to 1 at 1 gauge
+xfer f44 b43
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b45 f44
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b43 1
+rack -1;Rack to -1 at 1 gauge
+xfer f44 b45
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b45 f45
+split - f45 b45 1
+rack -1;Rack to -1 at 1 gauge
+xfer b45 f44
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+rack 1;Rack to 1 at 1 gauge
+xfer f35 b34
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b34 f34
+split - f34 b34 1
+rack 1;Rack to 1 at 1 gauge
+xfer b34 f35
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f35 1
+rack 1;Rack to 1 at 1 gauge
+xfer f34 b33
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b35 f34
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f34 b34
+split + b34 f34 1
+rack -1;Rack to -1 at 1 gauge
+xfer f34 b35
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b33 f34
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+rack -1;Rack to -1 at 1 gauge
+xfer f45 b46
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b44 f45
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f45 b45
+split + b45 f45 1
+rack 1;Rack to 1 at 1 gauge
+xfer f45 b44
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b46 f45
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b44 1
+rack -1;Rack to -1 at 1 gauge
+xfer f45 b46
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b46 f46
+split - f46 b46 1
+rack -1;Rack to -1 at 1 gauge
+xfer b46 f45
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+rack 1;Rack to 1 at 1 gauge
+xfer f34 b33
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b33 f33
+split - f33 b33 1
+rack 1;Rack to 1 at 1 gauge
+xfer b33 f34
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f34 1
+rack 1;Rack to 1 at 1 gauge
+xfer f33 b32
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b34 f33
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f33 b33
+split + b33 f33 1
+rack -1;Rack to -1 at 1 gauge
+xfer f33 b34
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b32 f33
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+rack -1;Rack to -1 at 1 gauge
+xfer f46 b47
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b45 f46
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f46 b46
+split + b46 f46 1
+rack 1;Rack to 1 at 1 gauge
+xfer f46 b45
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b47 f46
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b45 1
+rack -1;Rack to -1 at 1 gauge
+xfer f46 b47
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b47 f47
+split - f47 b47 1
+rack -1;Rack to -1 at 1 gauge
+xfer b47 f46
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+rack 1;Rack to 1 at 1 gauge
+xfer f33 b32
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b32 f32
+split - f32 b32 1
+rack 1;Rack to 1 at 1 gauge
+xfer b32 f33
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f33 1
+rack 1;Rack to 1 at 1 gauge
+xfer f32 b31
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b33 f32
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f32 b32
+split + b32 f32 1
+rack -1;Rack to -1 at 1 gauge
+xfer f32 b33
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b31 f32
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+rack -1;Rack to -1 at 1 gauge
+xfer f47 b48
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b46 f47
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f47 b47
+split + b47 f47 1
+rack 1;Rack to 1 at 1 gauge
+xfer f47 b46
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b48 f47
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b46 1
+;no-op. Releasehook with no hooked carriers
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+knit - f47 1
+knit - f46 1
+knit - f45 1
+knit - f44 1
+knit - f43 1
+knit - f42 1
+knit - f41 1
+knit - f40 1
+knit - f39 1
+knit - f38 1
+knit - f37 1
+knit - f36 1
+knit - f35 1
+knit - f34 1
+knit - f33 1
+knit - f32 1
+knit + b32 1
+knit + b33 1
+knit + b34 1
+knit + b35 1
+knit + b36 1
+knit + b37 1
+knit + b38 1
+knit + b39 1
+knit + b40 1
+knit + b41 1
+knit + b42 1
+knit + b43 1
+knit + b44 1
+knit + b45 1
+knit + b46 1
+knit + b47 1
+;KS: end of middle
+pause
+tuck - b30 1
+drop b30
+tuck - b23 1
+tuck - f22 1
+tuck + b22 1
+tuck + f23 1
+rack -1;Rack to -1 at 1 gauge
+xfer f23 b24
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b24 f24
+split - f24 b24 1
+rack -1;Rack to -1 at 1 gauge
+xfer b24 f23
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f23 1
+rack 1;Rack to 1 at 1 gauge
+xfer f22 b21
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b21 f21
+split - f21 b21 1
+rack 1;Rack to 1 at 1 gauge
+xfer b21 f22
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f22 1
+rack 1;Rack to 1 at 1 gauge
+xfer f21 b20
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b22 f21
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f21 b21
+split + b21 f21 1
+rack -1;Rack to -1 at 1 gauge
+xfer f21 b22
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b20 f21
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b22 1
+rack -1;Rack to -1 at 1 gauge
+xfer f24 b25
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b23 f24
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f24 b24
+split + b24 f24 1
+rack 1;Rack to 1 at 1 gauge
+xfer f24 b23
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b25 f24
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b23 1
+rack -1;Rack to -1 at 1 gauge
+xfer f24 b25
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b25 f25
+split - f25 b25 1
+rack -1;Rack to -1 at 1 gauge
+xfer b25 f24
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f24 1
+knit - f23 1
+knit - f22 1
+rack 1;Rack to 1 at 1 gauge
+xfer f21 b20
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b20 f20
+split - f20 b20 1
+rack 1;Rack to 1 at 1 gauge
+xfer b20 f21
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f21 1
+rack 1;Rack to 1 at 1 gauge
+xfer f20 b19
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b21 f20
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f20 b20
+split + b20 f20 1
+rack -1;Rack to -1 at 1 gauge
+xfer f20 b21
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b19 f20
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b21 1
+knit + b22 1
+knit + b23 1
+rack -1;Rack to -1 at 1 gauge
+xfer f25 b26
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b24 f25
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f25 b25
+split + b25 f25 1
+rack 1;Rack to 1 at 1 gauge
+xfer f25 b24
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b26 f25
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b24 1
+rack -1;Rack to -1 at 1 gauge
+xfer f25 b26
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b26 f26
+split - f26 b26 1
+rack -1;Rack to -1 at 1 gauge
+xfer b26 f25
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+rack 1;Rack to 1 at 1 gauge
+xfer f20 b19
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b19 f19
+split - f19 b19 1
+rack 1;Rack to 1 at 1 gauge
+xfer b19 f20
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f20 1
+rack 1;Rack to 1 at 1 gauge
+xfer f19 b18
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b20 f19
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f19 b19
+split + b19 f19 1
+rack -1;Rack to -1 at 1 gauge
+xfer f19 b20
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b18 f19
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+rack -1;Rack to -1 at 1 gauge
+xfer f26 b27
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b25 f26
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f26 b26
+split + b26 f26 1
+rack 1;Rack to 1 at 1 gauge
+xfer f26 b25
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b27 f26
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b25 1
+rack -1;Rack to -1 at 1 gauge
+xfer f26 b27
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b27 f27
+split - f27 b27 1
+rack -1;Rack to -1 at 1 gauge
+xfer b27 f26
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+rack 1;Rack to 1 at 1 gauge
+xfer f19 b18
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b18 f18
+split - f18 b18 1
+rack 1;Rack to 1 at 1 gauge
+xfer b18 f19
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f19 1
+rack 1;Rack to 1 at 1 gauge
+xfer f18 b17
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b19 f18
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f18 b18
+split + b18 f18 1
+rack -1;Rack to -1 at 1 gauge
+xfer f18 b19
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b17 f18
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+rack -1;Rack to -1 at 1 gauge
+xfer f27 b28
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b26 f27
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f27 b27
+split + b27 f27 1
+rack 1;Rack to 1 at 1 gauge
+xfer f27 b26
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b28 f27
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b26 1
+rack -1;Rack to -1 at 1 gauge
+xfer f27 b28
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b28 f28
+split - f28 b28 1
+rack -1;Rack to -1 at 1 gauge
+xfer b28 f27
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+rack 1;Rack to 1 at 1 gauge
+xfer f18 b17
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b17 f17
+split - f17 b17 1
+rack 1;Rack to 1 at 1 gauge
+xfer b17 f18
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f18 1
+rack 1;Rack to 1 at 1 gauge
+xfer f17 b16
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b18 f17
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f17 b17
+split + b17 f17 1
+rack -1;Rack to -1 at 1 gauge
+xfer f17 b18
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b16 f17
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+rack -1;Rack to -1 at 1 gauge
+xfer f28 b29
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b27 f28
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f28 b28
+split + b28 f28 1
+rack 1;Rack to 1 at 1 gauge
+xfer f28 b27
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b29 f28
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b27 1
+rack -1;Rack to -1 at 1 gauge
+xfer f28 b29
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b29 f29
+split - f29 b29 1
+rack -1;Rack to -1 at 1 gauge
+xfer b29 f28
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+rack 1;Rack to 1 at 1 gauge
+xfer f17 b16
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b16 f16
+split - f16 b16 1
+rack 1;Rack to 1 at 1 gauge
+xfer b16 f17
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f17 1
+rack 1;Rack to 1 at 1 gauge
+xfer f16 b15
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b17 f16
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f16 b16
+split + b16 f16 1
+rack -1;Rack to -1 at 1 gauge
+xfer f16 b17
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b15 f16
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+rack -1;Rack to -1 at 1 gauge
+xfer f29 b30
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b28 f29
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f29 b29
+split + b29 f29 1
+rack 1;Rack to 1 at 1 gauge
+xfer f29 b28
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b30 f29
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b28 1
+rack -1;Rack to -1 at 1 gauge
+xfer f29 b30
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b30 f30
+split - f30 b30 1
+rack -1;Rack to -1 at 1 gauge
+xfer b30 f29
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+rack 1;Rack to 1 at 1 gauge
+xfer f16 b15
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b15 f15
+split - f15 b15 1
+rack 1;Rack to 1 at 1 gauge
+xfer b15 f16
+rack 0.0;Rack to 0.0 at 1 gauge
+knit - f16 1
+rack 1;Rack to 1 at 1 gauge
+xfer f15 b14
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b16 f15
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f15 b15
+split + b15 f15 1
+rack -1;Rack to -1 at 1 gauge
+xfer f15 b16
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b14 f15
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+rack -1;Rack to -1 at 1 gauge
+xfer f30 b31
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b29 f30
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f30 b30
+split + b30 f30 1
+rack 1;Rack to 1 at 1 gauge
+xfer f30 b29
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b31 f30
+rack 0.0;Rack to 0.0 at 1 gauge
+knit + b29 1
+;no-op. Releasehook with no hooked carriers
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+knit - f30 1
+knit - f29 1
+knit - f28 1
+knit - f27 1
+knit - f26 1
+knit - f25 1
+knit - f24 1
+knit - f23 1
+knit - f22 1
+knit - f21 1
+knit - f20 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
+knit + b19 1
+knit + b20 1
+knit + b21 1
+knit + b22 1
+knit + b23 1
+knit + b24 1
+knit + b25 1
+knit + b26 1
+knit + b27 1
+knit + b28 1
+knit + b29 1
+knit + b30 1
+;KS: end of ring
+pause
+tuck - b14 1
+drop b14
+tuck - b8 1
+tuck - f7 1
+tuck + b7 1
+tuck + f8 1
+rack -1;Rack to -1 at 1 gauge
+xfer f8 b9
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b9 f9
+split - f9 b9 1
+rack -1;Rack to -1 at 1 gauge
+xfer b9 f8
+rack 0.0;Rack to 0.0 at 1 gauge
 knit - f8 1
 rack 1;Rack to 1 at 1 gauge
 xfer f7 b6
@@ -94,33 +8352,29 @@ rack 1;Rack to 1 at 1 gauge
 xfer b5 f6
 rack 0.0;Rack to 0.0 at 1 gauge
 knit + b7 1
+rack -1;Rack to -1 at 1 gauge
+xfer f9 b10
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b8 f9
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f9 b9
+split + b9 f9 1
+rack 1;Rack to 1 at 1 gauge
+xfer f9 b8
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b10 f9
+rack 0.0;Rack to 0.0 at 1 gauge
 knit + b8 1
-knit + b9 1
 rack -1;Rack to -1 at 1 gauge
-xfer f11 b12
+xfer f9 b10
 rack 0.0;Rack to 0.0 at 1 gauge
-rack 1;Rack to 1 at 1 gauge
-xfer b10 f11
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer f11 b11
-split + b11 f11 1
-rack 1;Rack to 1 at 1 gauge
-xfer f11 b10
-rack 0.0;Rack to 0.0 at 1 gauge
+xfer b10 f10
+split - f10 b10 1
 rack -1;Rack to -1 at 1 gauge
-xfer b12 f11
+xfer b10 f9
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + b10 1
-rack -1;Rack to -1 at 1 gauge
-xfer f11 b12
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer b12 f12
-split - f12 b12 1
-rack -1;Rack to -1 at 1 gauge
-xfer b12 f11
-rack 0.0;Rack to 0.0 at 1 gauge
-knit - f11 1
-knit - f10 1
 knit - f9 1
 knit - f8 1
 knit - f7 1
@@ -150,33 +8404,29 @@ rack 0.0;Rack to 0.0 at 1 gauge
 knit + b6 1
 knit + b7 1
 knit + b8 1
+rack -1;Rack to -1 at 1 gauge
+xfer f10 b11
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b9 f10
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f10 b10
+split + b10 f10 1
+rack 1;Rack to 1 at 1 gauge
+xfer f10 b9
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b11 f10
+rack 0.0;Rack to 0.0 at 1 gauge
 knit + b9 1
-knit + b10 1
 rack -1;Rack to -1 at 1 gauge
-xfer f12 b13
+xfer f10 b11
 rack 0.0;Rack to 0.0 at 1 gauge
-rack 1;Rack to 1 at 1 gauge
-xfer b11 f12
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer f12 b12
-split + b12 f12 1
-rack 1;Rack to 1 at 1 gauge
-xfer f12 b11
-rack 0.0;Rack to 0.0 at 1 gauge
+xfer b11 f11
+split - f11 b11 1
 rack -1;Rack to -1 at 1 gauge
-xfer b13 f12
+xfer b11 f10
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + b11 1
-rack -1;Rack to -1 at 1 gauge
-xfer f12 b13
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer b13 f13
-split - f13 b13 1
-rack -1;Rack to -1 at 1 gauge
-xfer b13 f12
-rack 0.0;Rack to 0.0 at 1 gauge
-knit - f12 1
-knit - f11 1
 knit - f10 1
 knit - f9 1
 knit - f8 1
@@ -210,33 +8460,29 @@ knit + b6 1
 knit + b7 1
 knit + b8 1
 knit + b9 1
+rack -1;Rack to -1 at 1 gauge
+xfer f11 b12
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b10 f11
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f11 b11
+split + b11 f11 1
+rack 1;Rack to 1 at 1 gauge
+xfer f11 b10
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b12 f11
+rack 0.0;Rack to 0.0 at 1 gauge
 knit + b10 1
-knit + b11 1
 rack -1;Rack to -1 at 1 gauge
-xfer f13 b14
+xfer f11 b12
 rack 0.0;Rack to 0.0 at 1 gauge
-rack 1;Rack to 1 at 1 gauge
-xfer b12 f13
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer f13 b13
-split + b13 f13 1
-rack 1;Rack to 1 at 1 gauge
-xfer f13 b12
-rack 0.0;Rack to 0.0 at 1 gauge
+xfer b12 f12
+split - f12 b12 1
 rack -1;Rack to -1 at 1 gauge
-xfer b14 f13
+xfer b12 f11
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + b12 1
-rack -1;Rack to -1 at 1 gauge
-xfer f13 b14
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer b14 f14
-split - f14 b14 1
-rack -1;Rack to -1 at 1 gauge
-xfer b14 f13
-rack 0.0;Rack to 0.0 at 1 gauge
-knit - f13 1
-knit - f12 1
 knit - f11 1
 knit - f10 1
 knit - f9 1
@@ -274,33 +8520,29 @@ knit + b7 1
 knit + b8 1
 knit + b9 1
 knit + b10 1
+rack -1;Rack to -1 at 1 gauge
+xfer f12 b13
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b11 f12
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f12 b12
+split + b12 f12 1
+rack 1;Rack to 1 at 1 gauge
+xfer f12 b11
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b13 f12
+rack 0.0;Rack to 0.0 at 1 gauge
 knit + b11 1
-knit + b12 1
 rack -1;Rack to -1 at 1 gauge
-xfer f14 b15
+xfer f12 b13
 rack 0.0;Rack to 0.0 at 1 gauge
-rack 1;Rack to 1 at 1 gauge
-xfer b13 f14
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer f14 b14
-split + b14 f14 1
-rack 1;Rack to 1 at 1 gauge
-xfer f14 b13
-rack 0.0;Rack to 0.0 at 1 gauge
+xfer b13 f13
+split - f13 b13 1
 rack -1;Rack to -1 at 1 gauge
-xfer b15 f14
+xfer b13 f12
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + b13 1
-rack -1;Rack to -1 at 1 gauge
-xfer f14 b15
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer b15 f15
-split - f15 b15 1
-rack -1;Rack to -1 at 1 gauge
-xfer b15 f14
-rack 0.0;Rack to 0.0 at 1 gauge
-knit - f14 1
-knit - f13 1
 knit - f12 1
 knit - f11 1
 knit - f10 1
@@ -342,33 +8584,29 @@ knit + b8 1
 knit + b9 1
 knit + b10 1
 knit + b11 1
+rack -1;Rack to -1 at 1 gauge
+xfer f13 b14
+rack 0.0;Rack to 0.0 at 1 gauge
+rack 1;Rack to 1 at 1 gauge
+xfer b12 f13
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer f13 b13
+split + b13 f13 1
+rack 1;Rack to 1 at 1 gauge
+xfer f13 b12
+rack 0.0;Rack to 0.0 at 1 gauge
+rack -1;Rack to -1 at 1 gauge
+xfer b14 f13
+rack 0.0;Rack to 0.0 at 1 gauge
 knit + b12 1
-knit + b13 1
 rack -1;Rack to -1 at 1 gauge
-xfer f15 b16
+xfer f13 b14
 rack 0.0;Rack to 0.0 at 1 gauge
-rack 1;Rack to 1 at 1 gauge
-xfer b14 f15
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer f15 b15
-split + b15 f15 1
-rack 1;Rack to 1 at 1 gauge
-xfer f15 b14
-rack 0.0;Rack to 0.0 at 1 gauge
+xfer b14 f14
+split - f14 b14 1
 rack -1;Rack to -1 at 1 gauge
-xfer b16 f15
+xfer b14 f13
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + b14 1
-rack -1;Rack to -1 at 1 gauge
-xfer f15 b16
-rack 0.0;Rack to 0.0 at 1 gauge
-xfer b16 f16
-split - f16 b16 1
-rack -1;Rack to -1 at 1 gauge
-xfer b16 f15
-rack 0.0;Rack to 0.0 at 1 gauge
-knit - f15 1
-knit - f14 1
 knit - f13 1
 knit - f12 1
 knit - f11 1
@@ -414,25 +8652,22 @@ knit + b9 1
 knit + b10 1
 knit + b11 1
 knit + b12 1
-knit + b13 1
-knit + b14 1
 rack -1;Rack to -1 at 1 gauge
-xfer f16 b17
+xfer f14 b15
 rack 0.0;Rack to 0.0 at 1 gauge
 rack 1;Rack to 1 at 1 gauge
-xfer b15 f16
+xfer b13 f14
 rack 0.0;Rack to 0.0 at 1 gauge
-xfer f16 b16
-split + b16 f16 1
+xfer f14 b14
+split + b14 f14 1
 rack 1;Rack to 1 at 1 gauge
-xfer f16 b15
+xfer f14 b13
 rack 0.0;Rack to 0.0 at 1 gauge
 rack -1;Rack to -1 at 1 gauge
-xfer b17 f16
+xfer b15 f14
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + b15 1
-knit - f16 1
-knit - f15 1
+knit + b13 1
+;no-op. Releasehook with no hooked carriers
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -461,10 +8696,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -493,10 +8724,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -525,10 +8752,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -557,10 +8780,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -589,10 +8808,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -621,10 +8836,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -653,10 +8864,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -685,10 +8892,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -717,10 +8920,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -749,10 +8948,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -781,10 +8976,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -813,10 +9004,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -845,10 +9032,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -877,10 +9060,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -909,10 +9088,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -941,10 +9116,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -973,10 +9144,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1005,10 +9172,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1037,10 +9200,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1069,10 +9228,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1101,10 +9256,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1133,10 +9284,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1165,10 +9312,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1197,10 +9340,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1229,10 +9368,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1261,10 +9396,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1293,10 +9424,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1325,10 +9452,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1357,10 +9480,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1389,10 +9508,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1421,10 +9536,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1453,10 +9564,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1485,10 +9592,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1517,10 +9620,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1549,10 +9648,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1581,10 +9676,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1613,10 +9704,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1645,10 +9732,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1677,10 +9760,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1709,10 +9788,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1741,10 +9816,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1773,10 +9844,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1805,10 +9872,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
 knit - f14 1
 knit - f13 1
 knit - f12 1
@@ -1837,103 +9900,6 @@ knit + b11 1
 knit + b12 1
 knit + b13 1
 knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
-knit - f14 1
-knit - f13 1
-knit - f12 1
-knit - f11 1
-knit - f10 1
-knit - f9 1
-knit - f8 1
-knit - f7 1
-knit - f6 1
-knit - f5 1
-knit - f4 1
-knit - f3 1
-knit - f2 1
-knit - f1 1
-knit + b1 1
-knit + b2 1
-knit + b3 1
-knit + b4 1
-knit + b5 1
-knit + b6 1
-knit + b7 1
-knit + b8 1
-knit + b9 1
-knit + b10 1
-knit + b11 1
-knit + b12 1
-knit + b13 1
-knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
-knit - f14 1
-knit - f13 1
-knit - f12 1
-knit - f11 1
-knit - f10 1
-knit - f9 1
-knit - f8 1
-knit - f7 1
-knit - f6 1
-knit - f5 1
-knit - f4 1
-knit - f3 1
-knit - f2 1
-knit - f1 1
-knit + b1 1
-knit + b2 1
-knit + b3 1
-knit + b4 1
-knit + b5 1
-knit + b6 1
-knit + b7 1
-knit + b8 1
-knit + b9 1
-knit + b10 1
-knit + b11 1
-knit + b12 1
-knit + b13 1
-knit + b14 1
-knit + b15 1
-knit + b16 1
-knit - f16 1
-knit - f15 1
-knit - f14 1
-knit - f13 1
-knit - f12 1
-knit - f11 1
-knit - f10 1
-knit - f9 1
-knit - f8 1
-knit - f7 1
-knit - f6 1
-knit - f5 1
-knit - f4 1
-knit - f3 1
-knit - f2 1
-knit - f1 1
-knit + b1 1
-knit + b2 1
-knit + b3 1
-knit + b4 1
-knit + b5 1
-knit + b6 1
-knit + b7 1
-knit + b8 1
-knit + b9 1
-knit + b10 1
-knit + b11 1
-knit + b12 1
-knit + b13 1
-knit + b14 1
-knit + b15 1
-knit + b16 1
-releasehook 1;Release inserting hook before cutting all yarns
+;KS: end of pinky
+pause
 outhook 1;Cutting active yarn on 1

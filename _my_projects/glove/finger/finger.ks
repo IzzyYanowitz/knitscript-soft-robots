@@ -10,19 +10,20 @@ def make_finger(left_side_index, dimensions): {
     width = dimensions[0];
     height = dimensions[1];
 
+    // properly inhooks
+    in Leftward direction: {
+        tuck Back_Needles[left_side_index + width + 1];
+    }
+    drop Back_Needles[left_side_index + width + 1];
+
+
     // the index of the left and right sides of the piece
     // used during the increase rounds because the increases always happen on the edges 
     left_side_index = left_side_index + int(width/2) + 1; // just starting a bit to the right to leave space
     right_side_index = left_side_index + 1;
     current_width = 2;
 
-
-    // this just makes sure the yarn inserting hook is out of the way
     
-    in Leftward direction: {
-        tuck Back_Needles[width + 2];
-    }
-    drop Back_Needles[width + 2];
 
 
     // You start by alt_tuck casting on 4 stitches that will be the tip of the finger
@@ -39,12 +40,12 @@ def make_finger(left_side_index, dimensions): {
     in Rightward direction: {
         tuck starting_needles[1: : 2];
     }
-
+    
     // make tip of the finger
 
     
     while current_width < width: {
-        print(Loops);
+        
         // racking doesn't seem to work so I am doing something much much slower with xfers.
         // this basically has to move each stitch out of the way before increasing it
         // this increase itself is pretty simple. You split a stitch, then move the old stitch to the outside
@@ -53,6 +54,7 @@ def make_finger(left_side_index, dimensions): {
         // right front increase
         xfer Front_Needles[right_side_index] 1 to Right;
         xfer Back_Needles[right_side_index + 1] across;
+        
 
         in Leftward direction: {
             split Front_Needles[right_side_index + 1];
@@ -129,18 +131,17 @@ def make_finger(left_side_index, dimensions): {
         right_side_index = right_side_index + 1;
         current_width = current_width + 2;
     }
-
+    
+    releasehook;
     // knit main body of finger
     for row in range(height): {
         in reverse direction: {
-            knit Front_Loops;
+            knit Front_Needles[left_side_index : right_side_index + 1];
         }
         in reverse direction: {
-            knit Back_Loops;
+            knit Back_Needles[left_side_index : right_side_index + 1];
         }
     }
-
-    
 
 }
 
@@ -151,14 +152,17 @@ def cm_to_sts(dimensions): {
 
 width_gauge = 4.5; // st/cm
 height_gauge = 6.8; // st/cm
+carr = c1;
 
-finger_dims = {"thumb": [4, 5.5],
-               "index": [3.5, 7],
-               "middle": [3.75, 7.5],
-               "ring": [3.25, 7],
-               "pinky": [3,5.5]};
+finger_dims = {"thumb": [3.5, 6.5],
+               "index": [3.5, 7.5],
+               "middle": [3.75, 8.5],
+               "ring": [3.5, 8],
+               "pinky": [3,6.5]};
 
-total_width = 0;
+
+
+total_width = 5; // accounts for spacing between fingers
 
 // convert finger_dims to stitch counts and find total width
 for finger in finger_dims: {
@@ -166,6 +170,18 @@ for finger in finger_dims: {
     total_width = total_width + finger_dims[finger][0];
 }
 
-with Carrier as c1: {
-    make_finger(left_side_index = 0, dimensions = finger_dims["index"]);
+
+
+current_width = total_width; // this keeps track of the left most edge of the piece as we knit all these fingers
+for finger in finger_dims.keys(): {
+    
+    dims = finger_dims[finger];
+    current_width = current_width - dims[0] - 1; // accounts for spacing between fingers
+
+    with Carrier as carr: {
+        make_finger(current_width, dims);
+    }
+    print("end of " + finger);
+    pause;
 }
+    

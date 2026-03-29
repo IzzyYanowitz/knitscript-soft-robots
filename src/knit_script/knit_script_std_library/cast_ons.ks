@@ -164,6 +164,36 @@ def all_needle_wasted_cast_on(w, waste_yarn, thread_yarn, waste_size=10, first_n
 
 }
 
+def knit_cast_on(co_needles, co_dir = Leftward, extra_knits = 1): {
+	
+	// casts on using a method analgous to the standard cast on when knitting by hand
+	if co_dir == Leftward: {
+		co_needles = co_needles[ : : -1];
+	}
+	
+	for needle in co_needles: {
+		in co_dir direction: {
+			miss needle;
+		}
+		in reverse direction: {
+			tuck needle;
+		}
+		in co_dir direction: {
+			miss needle;
+		}
+	}
+	
+	print f"Cast on {len(Loops)} loops from {co_needles[0]} to {co_needles[-1]}";
+	
+	for row in range(extra_knits): {
+		in reverse direction: {
+			knit co_needles;
+		}
+		releasehook;
+	}
+
+}
+
 
 //	in Leftward direction:{
 //		tuck Front_Needles[first_needle:first_needle+w:2];
