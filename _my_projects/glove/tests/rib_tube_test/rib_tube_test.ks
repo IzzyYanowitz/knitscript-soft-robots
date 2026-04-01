@@ -25,6 +25,7 @@ with Carrier as c1: {
     // xfer loops in a weird way
     for i in range(len(Front_Loops)): {
         xfer [Back_Needles, Front_Needles][i % 2][i + 1] 1 to Left;
+
     }
 
     // get frontside loops and backside loops
@@ -45,7 +46,7 @@ with Carrier as c1: {
     for i in range(len(Front_Loops) - 1, -1, -1): {
         xfer [Back_Needles, Front_Needles][i % 2][i + 1] 1 to Right;
     }
-
+    
     // knit stk tube
     for row in range(stk_height): {
         in reverse direction: {

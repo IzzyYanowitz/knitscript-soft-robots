@@ -8512,9 +8512,151 @@ xfer f47 b47
 xfer f51 b51
 xfer f55 b55
 xfer f59 b59
-rack 2;Rack to 1 at 2 gauge
-xfer b1 f3
+rack -2;Rack to -1 at 2 gauge
+xfer b59 f57
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f57 b57
+knit - b57 1
+rack -2;Rack to -1 at 2 gauge
+xfer b57 f55
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f55 b55
+knit - b55 1
+rack -2;Rack to -1 at 2 gauge
+xfer b55 f53
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f53 b53
+knit - b53 1
+rack -2;Rack to -1 at 2 gauge
+xfer b53 f51
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f51 b51
+knit - b51 1
+rack -2;Rack to -1 at 2 gauge
+xfer b51 f49
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f49 b49
+knit - b49 1
+rack -2;Rack to -1 at 2 gauge
+xfer b49 f47
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f47 b47
+knit - b47 1
+rack -2;Rack to -1 at 2 gauge
+xfer b47 f45
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f45 b45
+knit - b45 1
+rack -2;Rack to -1 at 2 gauge
+xfer b45 f43
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f43 b43
+knit - b43 1
+rack -2;Rack to -1 at 2 gauge
+xfer b43 f41
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f41 b41
+knit - b41 1
+rack -2;Rack to -1 at 2 gauge
+xfer b41 f39
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f39 b39
+knit - b39 1
+rack -2;Rack to -1 at 2 gauge
+xfer b39 f37
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f37 b37
+knit - b37 1
+rack -2;Rack to -1 at 2 gauge
+xfer b37 f35
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f35 b35
+knit - b35 1
+rack -2;Rack to -1 at 2 gauge
+xfer b35 f33
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f33 b33
+knit - b33 1
+rack -2;Rack to -1 at 2 gauge
+xfer b33 f31
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f31 b31
+knit - b31 1
+rack -2;Rack to -1 at 2 gauge
+xfer b31 f29
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f29 b29
+knit - b29 1
+rack -2;Rack to -1 at 2 gauge
+xfer b29 f27
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f27 b27
+knit - b27 1
+rack -2;Rack to -1 at 2 gauge
+xfer b27 f25
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f25 b25
+knit - b25 1
+rack -2;Rack to -1 at 2 gauge
+xfer b25 f23
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f23 b23
+knit - b23 1
+rack -2;Rack to -1 at 2 gauge
+xfer b23 f21
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f21 b21
+knit - b21 1
+rack -2;Rack to -1 at 2 gauge
+xfer b21 f19
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f19 b19
+knit - b19 1
+rack -2;Rack to -1 at 2 gauge
+xfer b19 f17
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f17 b17
+knit - b17 1
+rack -2;Rack to -1 at 2 gauge
+xfer b17 f15
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f15 b15
+knit - b15 1
+rack -2;Rack to -1 at 2 gauge
+xfer b15 f13
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f13 b13
+knit - b13 1
+rack -2;Rack to -1 at 2 gauge
+xfer b13 f11
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f11 b11
+knit - b11 1
+rack -2;Rack to -1 at 2 gauge
+xfer b11 f9
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f9 b9
+knit - b9 1
+rack -2;Rack to -1 at 2 gauge
+xfer b9 f7
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f7 b7
+knit - b7 1
+rack -2;Rack to -1 at 2 gauge
+xfer b7 f5
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f5 b5
+knit - b5 1
+rack -2;Rack to -1 at 2 gauge
+xfer b5 f3
 rack 0.0;Rack to 0.0 at 2 gauge
 xfer f3 b3
+knit - b3 1
+rack -2;Rack to -1 at 2 gauge
+xfer b3 f1
+rack 0.0;Rack to 0.0 at 2 gauge
+xfer f1 b1
+knit - b1 1
+;KS: Spare knitting on [b1]
+knit + b1 1
 outhook 1;Cutting active yarn on 1
-;Long float  of carrier 1 (i.e., >20) of 55 between 58 and b3

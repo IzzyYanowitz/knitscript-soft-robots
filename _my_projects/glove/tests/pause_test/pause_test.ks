@@ -14,4 +14,6 @@ with Carrier as c1: {
             knit Loops;
         }
     }
+
+    bind_offs.chain_bind_off(Loops, Leftward, extra_knits = 0, hold = True);
 }

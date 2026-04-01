@@ -86,6 +86,7 @@ knit + f16 1
 knit + f17 1
 knit + f18 1
 knit + f19 1
+releasehook 1
 knit - f19 1
 knit - f18 1
 knit - f17 1
@@ -926,5 +927,4 @@ xfer f1 b0
 rack 0.0;Rack to 0.0 at 1 gauge
 xfer b0 f0
 knit - f0 1
-releasehook 1;Release inserting hook before cutting all yarns
 outhook 1;Cutting active yarn on 1

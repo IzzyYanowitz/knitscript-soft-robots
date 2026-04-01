@@ -701,7 +701,6 @@ rack 0.0;Rack to 0.0 at 1 gauge
 rack 1;Rack to 1 at 1 gauge
 xfer f30 b29
 rack 0.0;Rack to 0.0 at 1 gauge
-;KS: [f0, b2, f2, b4, f4, b6, f6, b8, f8, b10, f10, b12, f12, b14, f14, b16, f16, b18, f18, b20, f20, b22, f22, b24, f24, b26, f26, b28, f28, b30]
 rack 0.25;All Needle racking 0.0 to right
 knit - f29 1
 knit - b29 1

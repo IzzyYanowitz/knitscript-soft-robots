@@ -142,6 +142,10 @@ def make_finger(left_side_index, dimensions): {
             knit Back_Needles[left_side_index : right_side_index + 1];
         }
     }
+    // get carrier to left of finger
+    in reverse direction: {
+        knit Front_Needles[left_side_index : right_side_index + 1];
+    }
 
 }
 
@@ -171,7 +175,7 @@ for finger in finger_dims: {
 }
 
 
-
+// first, make fingers
 current_width = total_width; // this keeps track of the left most edge of the piece as we knit all these fingers
 for finger in finger_dims.keys(): {
     
@@ -184,3 +188,35 @@ for finger in finger_dims.keys(): {
     print("end of " + finger);
     pause;
 }
+
+// second, knit fingers together.
+
+knuckle_dist = 5; //cm
+knuckle_dist = cm_to_sts([knuckle_dist, 0])[0];
+
+thumb_start = len(Front_Loops) - finger_dims["thumb"][0];
+for row in range(knuckle_dist): {
+    in reverse direction: {
+        knit Front_Needles[ : thumb_start];
+    }
+    in reverse direction: {
+        knit Back_Needles[ : thumb_start];
+    }
+}
+// join thumb
+current_width = thumb_start + 1;
+while current_width < len(Front_Loops): {
+    for row in range(2): {
+        in reverse direction: {
+            knit Front_Needles[ : current_width];
+        }
+    }
+    for row in range(2): {
+        in reverse direction: {
+            knit Back_Needles[ : current_width];
+        }
+    }
+    current_width = current_width + 1;
+}
+// decrease for shaping
+
