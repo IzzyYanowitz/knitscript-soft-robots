@@ -4,9 +4,10 @@ from knit_script.knit_graphs.knit_graph_viz import visualize_sheet
 import os;
 
 
-source_dir = "_my_projects/glove/tests/rib_tube_test/" # this is the folder the .ks file is located in. Make sure this path ends with a /
-title = "rib_tube_test2" # this is the name of the project and .ks file
+source_dir = "_my_projects/brioche/two_color_brioche/" # this is the folder the .ks file is located in. Make sure this path ends with a /
+title = "two_color_brioche" # this is the name of the project and .ks file
 version = ""
+
 if not os.path.isdir(source_dir + version):
     os.mkdir(source_dir + version)
 

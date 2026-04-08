@@ -33,7 +33,7 @@ def brioche_knit(knit_loops, tuck_needles, direct): {
 // set up rows
 with Carrier as front_carr: {
 
-    cast_ons.alt_tuck_cast_on(width, is_front = True);
+    cast_ons.knit_cast_on(Front_Needles[:width], extra_knits = 3);
     xfer Front_Loops[1 : : 2] 1 to Left; // sets up ribbing
     // it is important to have the two beds ontop of each other so to speak because of the way brioche knitting works
 
@@ -68,5 +68,10 @@ cut back_carr;
 
 with Carrier as front_carr: {
     xfer Back_Loops 1 to Right; // re-interlace back and front loops
-    bind_offs.chain_bind_off(Loops, row_direct, hold = False);
+    bo_needles = Loops;
+    double_loops = Loops[];
+    if row_direct == Leftward: {
+        bo_needles = bo_needles[::-1];
+    }
+    
 }
