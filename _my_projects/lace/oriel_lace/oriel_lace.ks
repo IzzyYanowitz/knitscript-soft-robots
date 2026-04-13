@@ -12,6 +12,8 @@ height_pattern_repeats = 2;
 width = 12 * width_pattern_repeats + 1;
 height = 28 * height_pattern_repeats;
 
+fabric_carr = c6;
+
 def knit_across(width, direction_is): {
     // for each needle station it tries to knit front, then back, then tuck
     // only runs inside width
@@ -121,7 +123,7 @@ def prepare_outside_lace(ktog_indices, ssk_indices, shift_dist): {
     }
 }
 
-with Carrier as c1: {
+with Carrier as fabric_carr: {
     cast_ons.alt_tuck_cast_on(width, is_front = True);
     
 
