@@ -184,10 +184,7 @@ def knit_cast_on(co_needles, co_dir = Leftward, extra_knits = 1, outhook = True)
 	}
 
 
-	co_needles = co_needles[1 : len(co_needles)];
-
-
-	for needle in co_needles: {
+	for needle in co_needles[1 : len(co_needles)]: {
 		in co_dir direction: {
 			miss needle;
 		}

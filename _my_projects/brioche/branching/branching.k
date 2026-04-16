@@ -443,110 +443,110 @@ rack 0.25;All Needle racking 0.0 to right
 tuck - b1 4
 knit - f1 4
 rack 0.0;Reset rack from all_needle
-inhook 9;Activating carrier 9
-tuck - b50 9
+inhook 8;Activating carrier 8
+tuck - b50 8
 drop b50
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
-releasehook 9
+releasehook 8
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
 knit + f1 4
@@ -650,104 +650,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -852,104 +852,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -1054,104 +1054,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -1256,104 +1256,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -1458,104 +1458,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -1660,104 +1660,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -1862,104 +1862,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -2064,104 +2064,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -2266,104 +2266,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -2468,104 +2468,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -2670,104 +2670,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -2872,104 +2872,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -3074,104 +3074,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -3276,104 +3276,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -3478,104 +3478,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -3680,104 +3680,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 xfer b25 f25
 rack -1;Rack to -1 at 1 gauge
@@ -3883,98 +3883,98 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
-knit + b23 9
-tuck + f25 9
+knit + b23 8
+tuck + f25 8
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
-rack 0.0;Reset rack from all_needle
-rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f47 8
+knit + b47 8
+rack 0.0;Reset rack from all_needle
+rack 0.25;All Needle racking 0.0 to right
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -4076,104 +4076,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -4278,104 +4278,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -4480,104 +4480,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -4682,104 +4682,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -4884,104 +4884,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -5086,104 +5086,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -5288,104 +5288,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -5490,104 +5490,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -5692,104 +5692,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -5894,104 +5894,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -6096,104 +6096,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -6298,104 +6298,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -6500,104 +6500,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -6702,104 +6702,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -6904,104 +6904,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -7106,104 +7106,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -7308,104 +7308,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -7510,104 +7510,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -7712,104 +7712,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -7914,104 +7914,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -8116,104 +8116,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -8318,104 +8318,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -8520,104 +8520,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -8722,104 +8722,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -8924,104 +8924,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -9126,104 +9126,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -9328,104 +9328,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -9530,104 +9530,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -9732,104 +9732,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -9934,104 +9934,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -10136,104 +10136,104 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
 knit + f0 4
 rack 0.25;All Needle racking 0.0 to right
@@ -10338,104 +10338,104 @@ tuck + b49 4
 rack 0.0;Reset rack from all_needle
 knit + f51 4
 rack 0.25;All Needle racking 0.0 to right
-tuck + f1 9
-knit + b1 9
+tuck + f1 8
+knit + b1 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f3 9
-knit + b3 9
+tuck + f3 8
+knit + b3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f5 9
-knit + b5 9
+tuck + f5 8
+knit + b5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f7 9
-knit + b7 9
+tuck + f7 8
+knit + b7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f9 9
-knit + b9 9
+tuck + f9 8
+knit + b9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f11 9
-knit + b11 9
+tuck + f11 8
+knit + b11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f13 9
-knit + b13 9
+tuck + f13 8
+knit + b13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f15 9
-knit + b15 9
+tuck + f15 8
+knit + b15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f17 9
-knit + b17 9
+tuck + f17 8
+knit + b17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f19 9
-knit + b19 9
+tuck + f19 8
+knit + b19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f21 9
-knit + b21 9
+tuck + f21 8
+knit + b21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f23 9
-knit + b23 9
+tuck + f23 8
+knit + b23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f25 9
-knit + b25 9
+tuck + f25 8
+knit + b25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f27 9
-knit + b27 9
+tuck + f27 8
+knit + b27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f29 9
-knit + b29 9
+tuck + f29 8
+knit + b29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f31 9
-knit + b31 9
+tuck + f31 8
+knit + b31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f33 9
-knit + b33 9
+tuck + f33 8
+knit + b33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f35 9
-knit + b35 9
+tuck + f35 8
+knit + b35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f37 9
-knit + b37 9
+tuck + f37 8
+knit + b37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f39 9
-knit + b39 9
+tuck + f39 8
+knit + b39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f41 9
-knit + b41 9
+tuck + f41 8
+knit + b41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f43 9
-knit + b43 9
+tuck + f43 8
+knit + b43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f45 9
-knit + b45 9
+tuck + f45 8
+knit + b45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f47 9
-knit + b47 9
+tuck + f47 8
+knit + b47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-tuck + f49 9
-knit + b49 9
+tuck + f49 8
+knit + b49 8
 rack 0.0;Reset rack from all_needle
 knit - f51 4
 rack 0.25;All Needle racking 0.0 to right
@@ -10540,106 +10540,106 @@ knit - f1 4
 rack 0.0;Reset rack from all_needle
 knit - f0 4
 rack 0.25;All Needle racking 0.0 to right
-knit - b49 9
-tuck - f49 9
+knit - b49 8
+tuck - f49 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b47 9
-tuck - f47 9
+knit - b47 8
+tuck - f47 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b45 9
-tuck - f45 9
+knit - b45 8
+tuck - f45 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b43 9
-tuck - f43 9
+knit - b43 8
+tuck - f43 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b41 9
-tuck - f41 9
+knit - b41 8
+tuck - f41 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b39 9
-tuck - f39 9
+knit - b39 8
+tuck - f39 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b37 9
-tuck - f37 9
+knit - b37 8
+tuck - f37 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b35 9
-tuck - f35 9
+knit - b35 8
+tuck - f35 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b33 9
-tuck - f33 9
+knit - b33 8
+tuck - f33 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b31 9
-tuck - f31 9
+knit - b31 8
+tuck - f31 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b29 9
-tuck - f29 9
+knit - b29 8
+tuck - f29 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b27 9
-tuck - f27 9
+knit - b27 8
+tuck - f27 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b25 9
-tuck - f25 9
+knit - b25 8
+tuck - f25 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b23 9
-tuck - f23 9
+knit - b23 8
+tuck - f23 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b21 9
-tuck - f21 9
+knit - b21 8
+tuck - f21 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b19 9
-tuck - f19 9
+knit - b19 8
+tuck - f19 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b17 9
-tuck - f17 9
+knit - b17 8
+tuck - f17 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b15 9
-tuck - f15 9
+knit - b15 8
+tuck - f15 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b13 9
-tuck - f13 9
+knit - b13 8
+tuck - f13 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b11 9
-tuck - f11 9
+knit - b11 8
+tuck - f11 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b9 9
-tuck - f9 9
+knit - b9 8
+tuck - f9 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b7 9
-tuck - f7 9
+knit - b7 8
+tuck - f7 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b5 9
-tuck - f5 9
+knit - b5 8
+tuck - f5 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b3 9
-tuck - f3 9
+knit - b3 8
+tuck - f3 8
 rack 0.0;Reset rack from all_needle
 rack 0.25;All Needle racking 0.0 to right
-knit - b1 9
-tuck - f1 9
+knit - b1 8
+tuck - f1 8
 rack 0.0;Reset rack from all_needle
-outhook 9
+outhook 8
 rack 1;Rack to 1 at 1 gauge
 xfer b1 f2
 xfer b3 f4
@@ -10671,276 +10671,276 @@ knit + f0 4
 rack -1;Rack to -1 at 1 gauge
 xfer f0 b1
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f1 4
 xfer b1 f1
 knit + f1 4
 rack -1;Rack to -1 at 1 gauge
 xfer f1 b2
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f2 4
 xfer b2 f2
 knit + f2 4
 rack -1;Rack to -1 at 1 gauge
 xfer f2 b3
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f3 4
 xfer b3 f3
 knit + f3 4
 rack -1;Rack to -1 at 1 gauge
 xfer f3 b4
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f4 4
 xfer b4 f4
 knit + f4 4
 rack -1;Rack to -1 at 1 gauge
 xfer f4 b5
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f5 4
 xfer b5 f5
 knit + f5 4
 rack -1;Rack to -1 at 1 gauge
 xfer f5 b6
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f6 4
 xfer b6 f6
 knit + f6 4
 rack -1;Rack to -1 at 1 gauge
 xfer f6 b7
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f7 4
 xfer b7 f7
 knit + f7 4
 rack -1;Rack to -1 at 1 gauge
 xfer f7 b8
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f8 4
 xfer b8 f8
 knit + f8 4
 rack -1;Rack to -1 at 1 gauge
 xfer f8 b9
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f9 4
 xfer b9 f9
 knit + f9 4
 rack -1;Rack to -1 at 1 gauge
 xfer f9 b10
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f10 4
 xfer b10 f10
 knit + f10 4
 rack -1;Rack to -1 at 1 gauge
 xfer f10 b11
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f11 4
 xfer b11 f11
 knit + f11 4
 rack -1;Rack to -1 at 1 gauge
 xfer f11 b12
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f12 4
 xfer b12 f12
 knit + f12 4
 rack -1;Rack to -1 at 1 gauge
 xfer f12 b13
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f13 4
 xfer b13 f13
 knit + f13 4
 rack -1;Rack to -1 at 1 gauge
 xfer f13 b14
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f14 4
 xfer b14 f14
 knit + f14 4
 rack -1;Rack to -1 at 1 gauge
 xfer f14 b15
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f15 4
 xfer b15 f15
 knit + f15 4
 rack -1;Rack to -1 at 1 gauge
 xfer f15 b16
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f16 4
 xfer b16 f16
 knit + f16 4
 rack -1;Rack to -1 at 1 gauge
 xfer f16 b17
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f17 4
 xfer b17 f17
 knit + f17 4
 rack -1;Rack to -1 at 1 gauge
 xfer f17 b18
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f18 4
 xfer b18 f18
 knit + f18 4
 rack -1;Rack to -1 at 1 gauge
 xfer f18 b19
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f19 4
 xfer b19 f19
 knit + f19 4
 rack -1;Rack to -1 at 1 gauge
 xfer f19 b20
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f20 4
 xfer b20 f20
 knit + f20 4
 rack -1;Rack to -1 at 1 gauge
 xfer f20 b21
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f21 4
 xfer b21 f21
 knit + f21 4
 rack -1;Rack to -1 at 1 gauge
 xfer f21 b22
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f22 4
 xfer b22 f22
 knit + f22 4
 rack -1;Rack to -1 at 1 gauge
 xfer f22 b23
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f23 4
 xfer b23 f23
 knit + f23 4
 rack -1;Rack to -1 at 1 gauge
 xfer f23 b24
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f24 4
 xfer b24 f24
 knit + f24 4
 rack -1;Rack to -1 at 1 gauge
 xfer f24 b25
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f25 4
 xfer b25 f25
 knit + f25 4
 rack -1;Rack to -1 at 1 gauge
 xfer f25 b26
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f26 4
 xfer b26 f26
 knit + f26 4
 rack -1;Rack to -1 at 1 gauge
 xfer f26 b27
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f27 4
 xfer b27 f27
 knit + f27 4
 rack -1;Rack to -1 at 1 gauge
 xfer f27 b28
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f28 4
 xfer b28 f28
 knit + f28 4
 rack -1;Rack to -1 at 1 gauge
 xfer f28 b29
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f29 4
 xfer b29 f29
 knit + f29 4
 rack -1;Rack to -1 at 1 gauge
 xfer f29 b30
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f30 4
 xfer b30 f30
 knit + f30 4
 rack -1;Rack to -1 at 1 gauge
 xfer f30 b31
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f31 4
 xfer b31 f31
 knit + f31 4
 rack -1;Rack to -1 at 1 gauge
 xfer f31 b32
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f32 4
 xfer b32 f32
 knit + f32 4
 rack -1;Rack to -1 at 1 gauge
 xfer f32 b33
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f33 4
 xfer b33 f33
 knit + f33 4
 rack -1;Rack to -1 at 1 gauge
 xfer f33 b34
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f34 4
 xfer b34 f34
 knit + f34 4
 rack -1;Rack to -1 at 1 gauge
 xfer f34 b35
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f35 4
 xfer b35 f35
 knit + f35 4
 rack -1;Rack to -1 at 1 gauge
 xfer f35 b36
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f36 4
 xfer b36 f36
 knit + f36 4
 rack -1;Rack to -1 at 1 gauge
 xfer f36 b37
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f37 4
 xfer b37 f37
 knit + f37 4
 rack -1;Rack to -1 at 1 gauge
 xfer f37 b38
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f38 4
 xfer b38 f38
 knit + f38 4
 rack -1;Rack to -1 at 1 gauge
 xfer f38 b39
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f39 4
 xfer b39 f39
 knit + f39 4
 rack -1;Rack to -1 at 1 gauge
 xfer f39 b40
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f40 4
 xfer b40 f40
 knit + f40 4
 rack -1;Rack to -1 at 1 gauge
 xfer f40 b41
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f41 4
 xfer b41 f41
 knit + f41 4
 rack -1;Rack to -1 at 1 gauge
 xfer f41 b42
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f42 4
 xfer b42 f42
 knit + f42 4
 rack -1;Rack to -1 at 1 gauge
 xfer f42 b43
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f43 4
 xfer b43 f43
 knit + f43 4
 rack -1;Rack to -1 at 1 gauge
 xfer f43 b44
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f44 4
 xfer b44 f44
 knit + f44 4
 rack -1;Rack to -1 at 1 gauge
 xfer f44 b45
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f45 4
 xfer b45 f45
 knit + f45 4
 rack -1;Rack to -1 at 1 gauge
 xfer f45 b46
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f46 4
 xfer b46 f46
 knit + f46 4
 rack -1;Rack to -1 at 1 gauge
 xfer f46 b47
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f47 4
 xfer b47 f47
 knit + f47 4
 rack -1;Rack to -1 at 1 gauge
 xfer f47 b48
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f48 4
 xfer b48 f48
 knit + f48 4
 rack -1;Rack to -1 at 1 gauge
 xfer f48 b49
 rack 0.0;Rack to 0.0 at 1 gauge
+knit + f49 4
 xfer b49 f49
 knit + f49 4
 rack -1;Rack to -1 at 1 gauge
 xfer f49 b50
 rack 0.0;Rack to 0.0 at 1 gauge
-knit + f50 4
 xfer b50 f50
 knit + f50 4
 rack -1;Rack to -1 at 1 gauge

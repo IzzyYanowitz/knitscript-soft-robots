@@ -1,6 +1,4 @@
-// my thinking was it might be useful to have a fabric that is conductive only on one side
-// to color brioche seems like it was practically made for a knitting machine
-// its so hard to do by hand but it seems easy for the machine
+// test of brioche increase and decrease
 
 import cast_ons;
 import bind_offs;
@@ -12,7 +10,7 @@ center = int(width / 2) + (1 - int(width / 2) % 2);
 
 // make sure front carr has smaller index than back carr
 front_carr = c4;
-back_carr = c9;
+back_carr = c8;
 
 def brioche_along(knit_loops, tuck_needles, direct): {
     // more robust version of brioche_knit

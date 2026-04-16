@@ -584,7 +584,6 @@ knit + f16 1
 knit + f17 1
 knit + f18 1
 knit + f19 1
-releasehook 5
 knit - f19 1
 knit - f18 1
 knit - f17 1
@@ -605,7 +604,6 @@ knit - f3 1
 knit - f2 1
 knit - f1 1
 knit - f0 1
-outhook 5
 knit + f0 1
 knit + f1 1
 knit + f2 1
@@ -626,7 +624,6 @@ knit + f16 1
 knit + f17 1
 knit + f18 1
 knit + f19 1
-;no-op. Releasehook with no hooked carriers
 knit - f19 1
 knit - f18 1
 knit - f17 1
@@ -647,8 +644,243 @@ knit - f3 1
 knit - f2 1
 knit - f1 1
 knit - f0 1
-inhook 5;Activating carrier 5
+knit + f0 1
+knit + f1 1
+knit + f2 1
+knit + f3 1
+knit + f4 1
+knit + f5 1
+knit + f6 1
+knit + f7 1
+knit + f8 1
+knit + f9 1
+knit + f10 1
+knit + f11 1
+knit + f12 1
+knit + f13 1
+knit + f14 1
+knit + f15 1
+knit + f16 1
+knit + f17 1
+knit + f18 1
+knit + f19 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit - f14 1
+knit - f13 1
+knit - f12 1
+knit - f11 1
+knit - f10 1
+knit - f9 1
+knit - f8 1
+knit - f7 1
+knit - f6 1
+knit - f5 1
+knit - f4 1
+knit - f3 1
+knit - f2 1
+knit - f1 1
+knit - f0 1
+knit + f0 1
+knit + f1 1
+knit + f2 1
+knit + f3 1
+knit + f4 1
+knit + f5 1
+knit + f6 1
+knit + f7 1
+knit + f8 1
+knit + f9 1
+knit + f10 1
+knit + f11 1
+knit + f12 1
+knit + f13 1
+knit + f14 1
+knit + f15 1
+knit + f16 1
+knit + f17 1
+knit + f18 1
+knit + f19 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit - f14 1
+knit - f13 1
+knit - f12 1
+knit - f11 1
+knit - f10 1
+knit - f9 1
+knit - f8 1
+knit - f7 1
+knit - f6 1
+knit - f5 1
+knit - f4 1
+knit - f3 1
+knit - f2 1
+knit - f1 1
+knit - f0 1
+knit + f0 1
+knit + f1 1
+knit + f2 1
+knit + f3 1
+knit + f4 1
+knit + f5 1
+knit + f6 1
+knit + f7 1
+knit + f8 1
+knit + f9 1
+knit + f10 1
+knit + f11 1
+knit + f12 1
+knit + f13 1
+knit + f14 1
+knit + f15 1
+knit + f16 1
+knit + f17 1
+knit + f18 1
+knit + f19 1
+knit - f19 1
+knit - f18 1
+knit - f17 1
+knit - f16 1
+knit - f15 1
+knit - f14 1
+knit - f13 1
+knit - f12 1
+knit - f11 1
+knit - f10 1
+knit - f9 1
+knit - f8 1
+knit - f7 1
+knit - f6 1
+knit - f5 1
+knit - f4 1
+knit - f3 1
+knit - f2 1
+knit - f1 1
+knit - f0 1
+knit + f0 1
+knit + f1 1
+knit + f2 1
+knit + f3 1
+knit + f4 1
+knit + f5 1
+knit + f6 1
+knit + f7 1
+knit + f8 1
+knit + f9 1
+knit + f10 1
+knit + f11 1
+knit + f12 1
+knit + f13 1
+knit + f14 1
+knit + f15 1
+knit + f16 1
+knit + f17 1
+knit + f18 1
+knit + f19 1
+rack 1;Rack to 1 at 1 gauge
+xfer f19 b18
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b18 f18
+knit - f18 1
+rack 1;Rack to 1 at 1 gauge
+xfer f18 b17
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b17 f17
+knit - f17 1
+rack 1;Rack to 1 at 1 gauge
+xfer f17 b16
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b16 f16
+knit - f16 1
+rack 1;Rack to 1 at 1 gauge
+xfer f16 b15
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b15 f15
+knit - f15 1
+rack 1;Rack to 1 at 1 gauge
+xfer f15 b14
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b14 f14
+knit - f14 1
+rack 1;Rack to 1 at 1 gauge
+xfer f14 b13
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b13 f13
+knit - f13 1
+rack 1;Rack to 1 at 1 gauge
+xfer f13 b12
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b12 f12
+knit - f12 1
+rack 1;Rack to 1 at 1 gauge
+xfer f12 b11
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b11 f11
+knit - f11 1
+rack 1;Rack to 1 at 1 gauge
+xfer f11 b10
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b10 f10
+knit - f10 1
+rack 1;Rack to 1 at 1 gauge
+xfer f10 b9
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b9 f9
+knit - f9 1
+rack 1;Rack to 1 at 1 gauge
+xfer f9 b8
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b8 f8
+knit - f8 1
+rack 1;Rack to 1 at 1 gauge
+xfer f8 b7
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b7 f7
+knit - f7 1
+rack 1;Rack to 1 at 1 gauge
+xfer f7 b6
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b6 f6
+knit - f6 1
+rack 1;Rack to 1 at 1 gauge
+xfer f6 b5
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b5 f5
+knit - f5 1
+rack 1;Rack to 1 at 1 gauge
+xfer f5 b4
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b4 f4
+knit - f4 1
+rack 1;Rack to 1 at 1 gauge
+xfer f4 b3
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b3 f3
+knit - f3 1
+rack 1;Rack to 1 at 1 gauge
+xfer f3 b2
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b2 f2
+knit - f2 1
+rack 1;Rack to 1 at 1 gauge
+xfer f2 b1
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b1 f1
+knit - f1 1
+rack 1;Rack to 1 at 1 gauge
+xfer f1 b0
+rack 0.0;Rack to 0.0 at 1 gauge
+xfer b0 f0
+knit - f0 1
+;KS: Spare knitting on [f0]
+knit + f0 1
 releasehook 5;Release inserting hook before cutting all yarns
 outhook 1;Cutting active yarn on 1
 outhook 5;Cutting active yarn on 5
-;Cannot use yarn inserting hook because it is already in use.
