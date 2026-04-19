@@ -107,66 +107,6 @@ knit + f17 1
 knit + f18 1
 knit + f19 1
 releasehook 1
-miss + f0 1
-knit - f0 1
-miss + f0 1
-miss + f1 1
-knit - f1 1
-miss + f1 1
-miss + f2 1
-knit - f2 1
-miss + f2 1
-miss + f3 1
-knit - f3 1
-miss + f3 1
-miss + f4 1
-knit - f4 1
-miss + f4 1
-miss + f5 1
-knit - f5 1
-miss + f5 1
-miss + f6 1
-knit - f6 1
-miss + f6 1
-miss + f7 1
-knit - f7 1
-miss + f7 1
-miss + f8 1
-knit - f8 1
-miss + f8 1
-miss + f9 1
-knit - f9 1
-miss + f9 1
-miss + f10 1
-knit - f10 1
-miss + f10 1
-miss + f11 1
-knit - f11 1
-miss + f11 1
-miss + f12 1
-knit - f12 1
-miss + f12 1
-miss + f13 1
-knit - f13 1
-miss + f13 1
-miss + f14 1
-knit - f14 1
-miss + f14 1
-miss + f15 1
-knit - f15 1
-miss + f15 1
-miss + f16 1
-knit - f16 1
-miss + f16 1
-miss + f17 1
-knit - f17 1
-miss + f17 1
-miss + f18 1
-knit - f18 1
-miss + f18 1
-miss + f19 1
-knit - f19 1
-miss + f19 1
 miss - f19 1
 knit + f19 1
 miss - f19 1
@@ -1307,119 +1247,179 @@ miss - f1 1
 miss - f0 1
 knit + f0 1
 miss - f0 1
-rack -1;Rack to -1 at 1 gauge
-xfer f0 b1
+miss + f0 1
+knit - f0 1
+miss + f0 1
+miss + f1 1
+knit - f1 1
+miss + f1 1
+miss + f2 1
+knit - f2 1
+miss + f2 1
+miss + f3 1
+knit - f3 1
+miss + f3 1
+miss + f4 1
+knit - f4 1
+miss + f4 1
+miss + f5 1
+knit - f5 1
+miss + f5 1
+miss + f6 1
+knit - f6 1
+miss + f6 1
+miss + f7 1
+knit - f7 1
+miss + f7 1
+miss + f8 1
+knit - f8 1
+miss + f8 1
+miss + f9 1
+knit - f9 1
+miss + f9 1
+miss + f10 1
+knit - f10 1
+miss + f10 1
+miss + f11 1
+knit - f11 1
+miss + f11 1
+miss + f12 1
+knit - f12 1
+miss + f12 1
+miss + f13 1
+knit - f13 1
+miss + f13 1
+miss + f14 1
+knit - f14 1
+miss + f14 1
+miss + f15 1
+knit - f15 1
+miss + f15 1
+miss + f16 1
+knit - f16 1
+miss + f16 1
+miss + f17 1
+knit - f17 1
+miss + f17 1
+miss + f18 1
+knit - f18 1
+miss + f18 1
+miss + f19 1
+knit - f19 1
+miss + f19 1
+rack 1;Rack to 1 at 1 gauge
+xfer f19 b18
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b1 f1 1
-knit + f1 1
-rack -1;Rack to -1 at 1 gauge
-xfer f1 b2
+split + b18 f18 1
+knit - f18 1
+rack 1;Rack to 1 at 1 gauge
+xfer f18 b17
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b2 f2 1
-knit + f2 1
-rack -1;Rack to -1 at 1 gauge
-xfer f2 b3
+split + b17 f17 1
+knit - f17 1
+rack 1;Rack to 1 at 1 gauge
+xfer f17 b16
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b3 f3 1
-knit + f3 1
-rack -1;Rack to -1 at 1 gauge
-xfer f3 b4
+split + b16 f16 1
+knit - f16 1
+rack 1;Rack to 1 at 1 gauge
+xfer f16 b15
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b4 f4 1
-knit + f4 1
-rack -1;Rack to -1 at 1 gauge
-xfer f4 b5
+split + b15 f15 1
+knit - f15 1
+rack 1;Rack to 1 at 1 gauge
+xfer f15 b14
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b5 f5 1
-knit + f5 1
-rack -1;Rack to -1 at 1 gauge
-xfer f5 b6
+split + b14 f14 1
+knit - f14 1
+rack 1;Rack to 1 at 1 gauge
+xfer f14 b13
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b6 f6 1
-knit + f6 1
-rack -1;Rack to -1 at 1 gauge
-xfer f6 b7
+split + b13 f13 1
+knit - f13 1
+rack 1;Rack to 1 at 1 gauge
+xfer f13 b12
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b7 f7 1
-knit + f7 1
-rack -1;Rack to -1 at 1 gauge
-xfer f7 b8
+split + b12 f12 1
+knit - f12 1
+rack 1;Rack to 1 at 1 gauge
+xfer f12 b11
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b8 f8 1
-knit + f8 1
-rack -1;Rack to -1 at 1 gauge
-xfer f8 b9
+split + b11 f11 1
+knit - f11 1
+rack 1;Rack to 1 at 1 gauge
+xfer f11 b10
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b9 f9 1
-knit + f9 1
-rack -1;Rack to -1 at 1 gauge
-xfer f9 b10
+split + b10 f10 1
+knit - f10 1
+rack 1;Rack to 1 at 1 gauge
+xfer f10 b9
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b10 f10 1
-knit + f10 1
-rack -1;Rack to -1 at 1 gauge
-xfer f10 b11
+split + b9 f9 1
+knit - f9 1
+rack 1;Rack to 1 at 1 gauge
+xfer f9 b8
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b11 f11 1
-knit + f11 1
-rack -1;Rack to -1 at 1 gauge
-xfer f11 b12
+split + b8 f8 1
+knit - f8 1
+rack 1;Rack to 1 at 1 gauge
+xfer f8 b7
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b12 f12 1
-knit + f12 1
-rack -1;Rack to -1 at 1 gauge
-xfer f12 b13
+split + b7 f7 1
+knit - f7 1
+rack 1;Rack to 1 at 1 gauge
+xfer f7 b6
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b13 f13 1
-knit + f13 1
-rack -1;Rack to -1 at 1 gauge
-xfer f13 b14
+split + b6 f6 1
+knit - f6 1
+rack 1;Rack to 1 at 1 gauge
+xfer f6 b5
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b14 f14 1
-knit + f14 1
-rack -1;Rack to -1 at 1 gauge
-xfer f14 b15
+split + b5 f5 1
+knit - f5 1
+rack 1;Rack to 1 at 1 gauge
+xfer f5 b4
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b15 f15 1
-knit + f15 1
-rack -1;Rack to -1 at 1 gauge
-xfer f15 b16
+split + b4 f4 1
+knit - f4 1
+rack 1;Rack to 1 at 1 gauge
+xfer f4 b3
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b16 f16 1
-knit + f16 1
-rack -1;Rack to -1 at 1 gauge
-xfer f16 b17
+split + b3 f3 1
+knit - f3 1
+rack 1;Rack to 1 at 1 gauge
+xfer f3 b2
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b17 f17 1
-knit + f17 1
-rack -1;Rack to -1 at 1 gauge
-xfer f17 b18
+split + b2 f2 1
+knit - f2 1
+rack 1;Rack to 1 at 1 gauge
+xfer f2 b1
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b18 f18 1
-knit + f18 1
-rack -1;Rack to -1 at 1 gauge
-xfer f18 b19
+split + b1 f1 1
+knit - f1 1
+rack 1;Rack to 1 at 1 gauge
+xfer f1 b0
 rack 0.0;Rack to 0.0 at 1 gauge
-split - b19 f19 1
-knit + f19 1
-;KS: Spare knitting on [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19]
-knit - b19 1
-knit - b18 1
-knit - b17 1
-knit - b16 1
-knit - b15 1
-knit - b14 1
-knit - b13 1
-knit - b12 1
-knit - b11 1
-knit - b10 1
-knit - b9 1
-knit - b8 1
-knit - b7 1
-knit - b6 1
-knit - b5 1
-knit - b4 1
-knit - b3 1
-knit - b2 1
-knit - b1 1
+split + b0 f0 1
+knit - f0 1
+;KS: Spare knitting on [b18, b17, b16, b15, b14, b13, b12, b11, b10, b9, b8, b7, b6, b5, b4, b3, b2, b1, b0]
+knit + b0 1
+knit + b1 1
+knit + b2 1
+knit + b3 1
+knit + b4 1
+knit + b5 1
+knit + b6 1
+knit + b7 1
+knit + b8 1
+knit + b9 1
+knit + b10 1
+knit + b11 1
+knit + b12 1
+knit + b13 1
+knit + b14 1
+knit + b15 1
+knit + b16 1
+knit + b17 1
+knit + b18 1
 outhook 1;Cutting active yarn on 1

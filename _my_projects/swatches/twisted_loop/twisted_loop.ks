@@ -18,8 +18,8 @@ with Carrier as carr: {
     cast_ons.knit_cast_on(Front_Needles[ : width], extra_knits = 1);
 
     for row in range(height): {
-        miss_direct = [Rightward, Leftward][row % 2];
-        knit_direct = [Leftward, Rightward][row % 2];
+        miss_direct = [Leftward, Rightward][row % 2];
+        knit_direct = [Rightward, Leftward][row % 2];
         knit_loops = Front_Loops;
         
         if miss_direct == Leftward: {

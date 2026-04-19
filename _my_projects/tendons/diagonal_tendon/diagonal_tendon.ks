@@ -39,7 +39,8 @@ for i in range(int(height / 2)): {
         }
     }
 
-    
+    // the tondon is being pulled to the right with this method
+    // I tuck it in the leftward direction because I think twisting the loop should increase stability.
     with Carrier as tendon_carr: {
         if ktog_index < (width - 5): {
             in Leftward direction: {
