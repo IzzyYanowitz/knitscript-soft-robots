@@ -1,38 +1,98 @@
 import cast_ons;
 import bind_offs;
 
-width = 30;
-height = 30;
-base_height = 10;
+waste_carr = c2;
+fabric_carr = c4;
 
-carr = c1;
+base_width = 30;
+side_width = 10;
+width = base_width + 2*side_width;
+base_height = 21; // must be odd
+side_height = 30;
+waste_height = 10; // must be even
 
-with Carrier as carr: {
-    cast_ons.alt_tuck_cast_on(width, is_front = True);
-
-    // start base
+// do waste yarn
+with Carrier as waste_carr: {
+    cast_ons.alt_tuck_cast_on(int(1.5 * width), is_front = True);
+    
+    
     in Leftward direction: {
-        split Loops;
+        knit Loops[width : int(1.5 * width)];
     }
     
-    // knit base
-    for row in range(base_height): {
+    
+    drop Loops[width : int(1.5 * width)];
+    
+    for row in range(waste_height): {
         in reverse direction: {
-            knit Front_Loops;
+            knit Loops;
+        }
+    }
+    
+    xfer Front_Loops[::2] across to Back bed;
+    xfer Front_Loops 1 to Left;
+
+}
+
+
+with Carrier as fabric_carr: {
+    cast_on_needles = [[Front_Needles,Back_Needles][i%2][i] for i in range(width)];
+    cast_ons.knit_cast_on(cast_on_needles, extra_knits = 0);
+    
+}
+
+with Carrier as waste_carr: {
+    in Leftward direction: {
+        tuck Front_Needles[1:width:2];
+    }
+    drop Front_Needles[1:width:2];
+    xfer Back_Needles[1:width:2] across;
+    drop Back_Loops;
+    
+}
+cut waste_carr;
+with Carrier as fabric_carr: {
+    
+    in Rightward direction: {
+        knit Front_Loops;
+    }
+    
+    in Leftward direction: {
+        knit Front_Loops[side_width + base_width : width];
+    }
+    
+    in Leftward direction: {
+        split Front_Loops[side_width : side_width + base_width];
+    }
+
+    in Leftward direction: {
+        knit Front_Loops[0 : side_width];
+    }
+    xfer Front_Needles[0 : side_width] across;
+    xfer Front_Needles[side_width + base_width : width] across;
+
+    in Rightward direction: {
+        knit Back_Needles[0 : side_width];
+    }
+
+    for row in range(base_height): {
+        in [Rightward, Leftward][row % 2] direction: {
+            knit Front_Needles[side_width : side_width + base_width];
         }
     }
 
-    // knit sides
+    cast_ons.knit_cast_on(Front_Needles[side_width + base_width : width], Rightward, extra_knits = 1);
+    in Leftward direction: {
+        knit Front_Needles[side_width : side_width + base_width];
+    }
+    cast_ons.knit_cast_on(Front_Needles[0 : side_width], Leftward, extra_knits = 0);
 
-    for row in range(height): {
-        in reverse direction: {
-            knit Front_Loops;
-        }
-
-        in reverse direction: {
+    for row in range(side_height): {
+        in Rightward direction: {
             knit Back_Loops;
         }
+        in Leftward direction: {
+            knit Front_Loops;
+        }
     }
-
-    
 }

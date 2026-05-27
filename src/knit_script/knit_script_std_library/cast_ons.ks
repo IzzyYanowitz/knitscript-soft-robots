@@ -199,8 +199,17 @@ def knit_cast_on(co_needles, co_dir = Leftward, extra_knits = 1, outhook = True)
 	print f"Cast on {len(Loops)} loops from {co_needles[0]} to {co_needles[-1]}";
 	
 	for row in range(extra_knits): {
-		in reverse direction: {
-			knit co_needles;
+		row_direct = reverse;
+		first = 1;
+		last = len(co_needles);
+		
+		if row_direct == Rightward: {
+			last = len(co_needles) - 1;
+			first = 0;
+		}
+		
+		in row_direct direction: {
+			knit co_needles[first : last];
 		}
 		
 	}
@@ -208,6 +217,59 @@ def knit_cast_on(co_needles, co_dir = Leftward, extra_knits = 1, outhook = True)
 		releasehook;
 	}
 	
+}
+
+def backward_loop_with_waste(co_carr, waste_carr, width, shift = 15, waste_height = 10, extra_knits = 1): {
+	// casts on the front bed with waste yarn
+	// really only works with empty needle bed
+	// sorry this is not a very versatile function
+	// it also only kinda works...
+	with Carrier as waste_carr: {
+    	
+		cast_ons.alt_tuck_cast_on(width + shift, is_front = True);
+		
+		in Leftward direction: {
+			knit Loops[width : width + shift];
+		}
+		
+		
+		drop Loops[width : width + shift];
+		
+		for row in range(waste_height): {
+			in reverse direction: {
+				knit Loops;
+			}
+		}
+		
+		xfer Front_Loops[::2] across to Back bed;
+		xfer Front_Loops 1 to Left;
+
+	}
+
+	with Carrier as co_carr: {
+		cast_on_needles = [[Front_Needles, Back_Needles][i % 2][i] for i in range(width)];
+		cast_ons.knit_cast_on(cast_on_needles, extra_knits = 0);
+
+	}
+
+	with Carrier as waste_carr: {
+		in Leftward direction: {
+			tuck Front_Needles[1:width:2];
+		}
+		drop Front_Needles[1:width:2];
+		xfer Back_Needles[1:width:2] across;
+		drop Back_Loops;
+		
+	}
+	cut waste_carr;
+
+	with Carrier as co_carr: {
+		for row in range(extra_knits): {
+			in [Rightward, Leftward][row % 2] direction: {
+				knit Loops;
+			}
+		}
+	}
 }
 
 

@@ -64,7 +64,7 @@ class Knit_Script_Interpreter:
         Resets the context of the knit_script_interpreter to a starting state with no set variables or operations on the machine
         """
         header = self._knit_pass_context.header
-        self._knit_pass_context = Knit_Script_Context(parser=self._parser)
+        self._knit_pass_context = Knit_Script_Context(parser=self._parser, machine_position = header.get_value(Header_ID.Position))
         self._knit_pass_context.header = header  # resets machine state as well
 
     def parse(self, pattern: str, pattern_is_file: bool = False) -> list:
